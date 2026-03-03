@@ -97,7 +97,7 @@ const CardX = () => {
   }, []);
 
   return (
-    <div className="w-full h-fit flex flex-col z-20 mt-[150vh]">
+    <div className="w-full h-fit flex flex-col z-20 ">
       {/* div-1 Sangeet */}
       <div className="w-full min-h-screen relative flex max-sm:flex-col-reverse">
         {/* left */}

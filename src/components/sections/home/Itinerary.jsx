@@ -4,6 +4,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 import Link from "next/link";
+import { FaStarOfLife } from "react-icons/fa";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -104,11 +105,11 @@ const Itinerary = () => {
               </span> */}
             </div>
 
-            <h5 className="Font_Q text-[40px] leading-[40px] max-sm:text-center  my-6 uppercase px-[10%] text-center">
-              Checkins, Vidhi, Sangeet
+            <h5 className="Font_Q text-[40px] leading-[45px] max-sm:text-center flex-wrap  my-6 uppercase px-[10%] text-center flex justify-center items-center">
+              Checkins <span className="mx-2 text-[12px] leading-[12px]"><FaStarOfLife/></span> Vidhi  <span className="mx-2 text-[12px] leading-[12px]"><FaStarOfLife/></span> Sangeet
             </h5>
 
-            <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
+            <p className=" Font_YV mt-2 leading-relaxed max-w-md text-center mx-auto">
               The celebrations begin as we gather, reconnect, and ease into a
               weekend of love and joy. From sacred rituals to a night of music
               and dancing, Day 1 sets the perfect tone for the festivities
@@ -181,11 +182,11 @@ const Itinerary = () => {
               </span>
             </div>
 
-            <h5 className="Font_Q text-[40px] leading-[42px] max-sm:text-center  my-6 uppercase px-[10%] text-center ">
-              Chooda, Haldi, Safa Bandhi, Baraat, Varmala, Phere
+            <h5 className="Font_Q text-[40px] leading-[45px] max-sm:text-center flex flex-wrap justify-center items-center  my-6 uppercase px-[10%] text-center ">
+              Chooda <span className="mx-2 text-[12px] leading-[12px]"><FaStarOfLife/></span> Haldi <span className="mx-2 text-[12px] leading-[12px]"><FaStarOfLife/></span> Safa Bandhi <span className="mx-2 text-[12px] leading-[12px]"><FaStarOfLife/></span> Baraat <span className="mx-2 text-[12px] leading-[12px]"><FaStarOfLife/></span> Varmala <span className="mx-2 text-[12px] leading-[12px]"><FaStarOfLife/></span> Phere
             </h5>
 
-            <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
+            <p className=" Font_YV mt-2 leading-relaxed max-w-md text-center mx-auto">
               A day rooted in tradition and bursting with celebration. From heartfelt rituals and vibrant ceremonies to the sacred vows and an electrifying after-party, this is where our forever truly begins.
             </p>
 
@@ -225,7 +226,7 @@ const Itinerary = () => {
                       ></path>
                     </svg>
                   </span>
-                  Know More
+                  Discover Day 2
                 </button>
               </Link>
 
@@ -257,14 +258,13 @@ const Itinerary = () => {
               </span>
             </div>
 
-            <h5 className="Font_Q text-[40px] leading-[42px] max-sm:text-center  my-6 uppercase  px-[10%] text-center">
-              Pool Party, Cocktail Hour, Reception, After Party
+            <h5 className="Font_Q text-[40px] leading-[45px] flex flex-wrap justify-center items-center max-sm:text-center  my-6 uppercase  px-[10%] text-center">
+              Pool Party <span className="mx-2 text-[12px] leading-[12px]"><FaStarOfLife/></span> Cocktail Hour <span className="mx-2 text-[12px] leading-[12px]"><FaStarOfLife/></span> Reception <span className="mx-2 text-[12px] leading-[12px]"><FaStarOfLife/></span> After Party
             </h5>
 
-            {/* <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
-              Sun, splashes, and effortless fun. A relaxed poolside celebration
-              to soak in the final moments of the wedding festivities together.
-            </p> */}
+            <p className=" Font_YV mt-2 leading-relaxed max-w-md text-center mx-auto">
+             Sunlit moments give way to glamour and grandeur. A day of relaxed fun, heartfelt toasts, elegant celebrations, and dancing late into the night as we celebrate our new chapter together.
+            </p>
 
             {/* <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
               (No white red or gold )
@@ -302,7 +302,7 @@ const Itinerary = () => {
                       ></path>
                     </svg>
                   </span>
-                  Know More
+                  View Day 3
                 </button>
               </Link>
             </div>

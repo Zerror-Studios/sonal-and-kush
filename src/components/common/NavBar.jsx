@@ -141,7 +141,7 @@ const NavBar = () => {
       </div>
 
       <div onClick={clickCheck} htmlFor="check" className=' absolute top-1 right-8 md:hidden'>
-        {isNavOpen == false ? (<><RiMenu4Fill className='text-[2rem] COLOR_TEXT_ORANGE' /></>) : (<><RiMenu3Line className='text-[2rem] COLOR_TEXT_ORANGE' /></>)}
+        {isNavOpen == false ? (<><RiMenu4Fill className='text-[2rem]  text-[#551301]' /></>) : (<><RiMenu3Line className='text-[2rem] text-[#551301] ' /></>)}
       </div>
 
       {/* MOBILENAV */}
