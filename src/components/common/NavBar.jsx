@@ -110,34 +110,37 @@ const NavBar = () => {
   }
 
   return (
-    <div ref={navRef} className='w-full h-[46px] mt-10 flex justify-between fixed top-0 left-0 md:mix-blend-difference md:invert-[-1]  items-center z-100 px-20'>
+    <div ref={navRef} className='w-full h-[46px] mt-10 flex justify-between fixed top-0 left-0   items-center z-100 px-20'>
       {/* Left */}
-      <div className='w-1/3 h-full RVSPBTN items-center max-md:hidden flex justify-between uppercase text-[16px] text-white '>
-        <Link href={`/`} ><div className={`w-fit ${pathname === '/' && (' border-b border-[white]')} h-fit flex flex-col group relative text-white  select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out bg-[white]'></div> The wedding</div></Link>
-        <Link href={`/wedding`} ><div className={`w-fit h-fit ${pathname === '/wedding' && (' border-b border-[white]')}  flex flex-col group text-white relative  select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out bg-[white]'></div> Itinerary</div></Link>
-        <Link href={`/venue`} ><div className={`w-fit h-fit ${pathname === '/venue' && (' border-b border-[white]')}  flex flex-col group relative text-white  select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out bg-[white]'></div>Wedding Hotel</div></Link>
+      <div className='w-1/3 h-full RVSPBTN items-center max-md:hidden flex justify-between uppercase text-[16px] COLOR_TEXT_RED '>
+        <Link href={`/`} ><div className={`w-fit ${pathname === '/' && (' border-b border-[#551301]')} h-fit flex flex-col group relative COLOR_TEXT_RED  select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div> The wedding</div></Link>
+        <Link href={`/wedding`} ><div className={`w-fit h-fit ${pathname === '/wedding' && (' border-b border-[#551301]')}  flex flex-col group COLOR_TEXT_RED relative  select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div> Itinerary</div></Link>
+        <Link href={`/venue`} ><div className={`w-fit h-fit ${pathname === '/venue' && (' border-b border-[#551301]')}  flex flex-col group relative COLOR_TEXT_RED  select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div>Wedding Hotel</div></Link>
       </div>
 
       {/* Logo */}
       <div className='w-fit h-[50px] RVSPBTN absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 '>
-        <Link href={`/`} ><img src={`/imgs/logo/logo.png`} alt="Logo" className='h-full object-cover object-center' /></Link>
+        <Link href={`/`} ><img src={`/svgs/CustomLogo.svg`} alt="Logo" className='h-full object-cover object-center' /></Link>
       </div>
 
       {/* Right */}
-      <div className='w-1/3  h-full RVSPBTN items-center max-md:hidden flex justify-between uppercase text-[16px]   text-white'>
+      <div className='w-1/3  h-full RVSPBTN items-center max-md:hidden flex justify-between uppercase text-[16px]   COLOR_TEXT_RED'>
 
 
-        <Link href={`/faq`} ><div className={`w-fit h-fit ${pathname === '/faq' && (' border-b border-[white]')}  flex flex-col group relative  text-white select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out bg-[white]'></div>FAQ</div></Link>
-        <Link href={`/explore`} ><div className={`w-fit h-fit ${pathname === '/explore' && (' border-b border-[white]')}  flex flex-col group relative  text-white select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out bg-[white]'></div>Explore Udaipur</div></Link>
-        {/* <Link href={`/itinerary`} ><div className={`w-fit h-fit ${pathname === '/itinerary' && (' border-b border-[white]')}  flex flex-col group relative text-white select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out bg-[white]'></div> Services</div></Link> */}
+        <Link href={`/faq`} ><div className={`w-fit h-fit ${pathname === '/faq' && (' border-b border-[#551301]')}  flex flex-col group relative  COLOR_TEXT_RED select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div>FAQ</div></Link>
+        <Link href={`/explore`} ><div className={`w-fit h-fit ${pathname === '/explore' && (' border-b border-[#551301]')}  flex flex-col group relative  COLOR_TEXT_RED select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div>Explore Udaipur</div></Link>
+        {/* <Link href={`/itinerary`} ><div className={`w-fit h-fit ${pathname === '/itinerary' && (' border-b border-[white]')}  flex flex-col group relative COLOR_TEXT_RED select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out bg-[white]'></div> Services</div></Link> */}
         {/*  */}
         {/* BTN */}
 
-        <Link href={`https://sonalandkush.rsvpify.com/rsvp-page-preview/1252849?signature=235b1d68860e41829c9570d80795912fa2bf5f030023fc95842583c3eca6cee8&securityToken=esXDu9juQOnJn9BH6C1HxIIu9kTXtrLv`}>
-          <div className='w-fit h-[46px] RVSPBTN max-md:hidden select-none cursor-pointer flex flex-col justify-center items-center px-[17px] py-[6px] text-[16px] text-[black] bg-white opacity-80 group '>
+        <Link
+          target="_blank"
+          rel="noopener noreferrer"
+          href={`https://sonalandkush.rsvpify.com/rsvp-page-preview/1252849?signature=235b1d68860e41829c9570d80795912fa2bf5f030023fc95842583c3eca6cee8&securityToken=esXDu9juQOnJn9BH6C1HxIIu9kTXtrLv`}>
+          <div className='w-fit h-[46px] RVSPBTN max-md:hidden select-none cursor-pointer flex flex-col justify-center items-center px-[17px] py-[6px] text-[16px] text-white COLOR_BG_RED opacity-80 group '>
             <div className='w-fit '>
               RSVP HERE
-              <div className='w-[0px] group-hover:w-full transition-all duration-150 ease-in h-[1px] bg-[black]'></div>
+              <div className='w-[0px] group-hover:w-full transition-all duration-150 ease-in h-[1px] bg-[white]'></div>
             </div>
           </div>
         </Link>
@@ -154,13 +157,13 @@ const NavBar = () => {
         <Link href={`/`}><div onClick={clickCheck} className='w-fit h-fit flex flex-col smNavItem opacity-0 group relative COLOR_TEXT_RED  select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out bg-[white]'></div>wedding</div></Link>
         <Link href={`/wedding`}><div onClick={clickCheck} className='w-fit h-fit flex smNavItem opacity-0 flex-col group COLOR_TEXT_RED relative  select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out bg-[white]'></div> Itinerary</div></Link>
         <Link href={`/venue`}><div onClick={clickCheck} className='w-fit h-fit flex smNavItem opacity-0 flex-col group relative COLOR_TEXT_RED  select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out bg-[white]'></div> Wedding Hotel</div></Link>
-        {/* <Link href={`/itinerary`}><div onClick={clickCheck} className='w-fit h-fit smNavItem opacity-0 flex flex-col group relative text-white select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out bg-[white]'></div> Services</div></Link> */}
+        {/* <Link href={`/itinerary`}><div onClick={clickCheck} className='w-fit h-fit smNavItem opacity-0 flex flex-col group relative COLOR_TEXT_RED select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out bg-[white]'></div> Services</div></Link> */}
         <Link href={`/explore`}><div onClick={clickCheck} className='w-fit h-fit smNavItem opacity-0 flex flex-col group relative  COLOR_TEXT_RED select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out bg-[white]'></div>Explore Udaipur</div></Link>
-          <Link href={`/faq`} ><div onClick={clickCheck}  className={`w-fit h-fit  flex flex-col group relative  COLOR_TEXT_RED select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out '></div>FAQ</div></Link>
-        
-        {/* <div className='w-fit h-fit flex flex-col group relative  select-none text-whitecursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out text-white'></div> FAQ</div> */}
+        <Link href={`/faq`} ><div onClick={clickCheck} className={`w-fit h-fit  flex flex-col group relative  COLOR_TEXT_RED select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out '></div>FAQ</div></Link>
+
+        {/* <div className='w-fit h-fit flex flex-col group relative  select-none COLOR_TEXT_REDcursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_TEXT_RED'></div> FAQ</div> */}
         {/* BTN */}
-        <Link href={`https://sonalandkush.rsvpify.com/rsvp-page-preview/1252849?signature=235b1d68860e41829c9570d80795912fa2bf5f030023fc95842583c3eca6cee8&securityToken=esXDu9juQOnJn9BH6C1HxIIu9kTXtrLv`}>
+        <Link target="_blank" rel="noopener noreferrer" href={`https://sonalandkush.rsvpify.com/rsvp-page-preview/1252849?signature=235b1d68860e41829c9570d80795912fa2bf5f030023fc95842583c3eca6cee8&securityToken=esXDu9juQOnJn9BH6C1HxIIu9kTXtrLv`}>
           <div className='w-fit h-[46px] md:hidden select-none cursor-pointer flex flex-col justify-center items-center px-[17px] py-[6px] text-[16px] mt-20 text-[white] COLOR_BG_RED'>
             RSVP HERE
 

@@ -159,11 +159,14 @@ export default function Shop() {
 
   useEffect(() => {
 
-  gsap.fromTo(
-    ".side-image",
-    { opacity: 0, scale: 0.9 },
-    { opacity: 1, scale: 1, duration: 0.6 }
-  );
+  const ratios = ["1/1", "2/1", "3/2", "1/2","1/3"];
+  const randomRatio = ratios[Math.floor(Math.random() * ratios.length)];
+
+  gsap.to(".side-image", {
+    aspectRatio: randomRatio,
+    duration: 0.5,
+    ease: "power2.out",
+  });
 
 }, [active]);
 
@@ -260,7 +263,7 @@ export default function Shop() {
           <img
             src={faqs?.[active]?.leftImage}
             alt="Left visual"
-            className=" side-image object-cover w-full h-[70vh]"
+            className=" side-image object-cover w-full "
           />
         </div>
 
@@ -284,7 +287,7 @@ export default function Shop() {
           <img
             src={faqs?.[active]?.rightImage}
             alt="Right visual"
-            className="side-image object-cover w-full h-[70vh]"
+            className="side-image object-cover w-full "
           />
         </div>
 

@@ -257,10 +257,10 @@ export default function FAQ() {
   return (
     <section
       id="FAQ"
-      className="min-h-screen max-sm:min-h-fit COLOR_BG_RED text-white flex items-center justify-center max-sm:py-[20vw] py-[20vh]"
+      className="min-h-screen max-sm:min-h-fit COLOR_BG_CREAM  flex items-center justify-center max-sm:py-[20vw] py-[20vh]"
     >
       <div className="w-[80%] max-sm:w-full px-6 max-sm:px-[20px] flex flex-col gap-20">
-        <h2 className="text-center Font_Q flex justify-center items-center">
+        <h2 className="text-center Font_Q flex justify-center items-center COLOR_TEXT_RED">
           FAQ
         </h2>
 
@@ -268,14 +268,14 @@ export default function FAQ() {
           {faqs.map((faq) => (
             <div
               key={faq.id}
-              className="border-b border-white/20 pb-6 group relative"
+              className="border-b border-[#55130121] pb-6 group relative"
             >
               {/* BUTTON */}
               <button
                 onClick={() => toggleFAQ(faq.id)}
                 className="group w-full flex items-center justify-between text-left"
               >
-                <span className="tracking-wide uppercase Font_YV text-[1.5rem] max-sm:text-[1.1rem] md:text-base">
+                <span className="tracking-wide uppercase COLOR_TEXT_RED Font_YV text-[1.5rem] max-sm:text-[1.1rem] md:text-base">
                   {faq.question}
                 </span>
 
@@ -285,11 +285,11 @@ export default function FAQ() {
                     }`}
                 >
                   <img
-                    src="/svgs/IconPlus.svg"
+                    src="/svgs/IconPlusnew.svg"
                     alt="icon"
                     className="absolute inset-0 w-full h-full"
                   />
-                  <span className="absolute inset-0 m-auto w-[7px] h-[7px] COLOR_BG_RED" />
+                  <span className="absolute inset-0 m-auto w-[7px] h-[7px] COLOR_BG_CREAM" />
                 </span>
               </button>
 
@@ -304,13 +304,13 @@ export default function FAQ() {
                       : "0px",
                 }}
               >
-                <div className="mt-4 Font_YV text-[18px] text-white/60">
+                <div className="mt-4 Font_YV text-[18px] text-[#551301a4]">
                   {faq.answer}
 
                   {(faq.id === 14 || faq.id === 15) && (
                     <Link
                       href="/explore"
-                      className="text-white underline ml-2"
+                      className="COLOR_TEXT_RED underline ml-2"
                     >
                       Know More
                     </Link>
@@ -319,7 +319,7 @@ export default function FAQ() {
               </div>
 
               {/* HOVER LINE */}
-              <div className="w-0 h-px bg-white group-hover:w-full absolute bottom-0 left-0 transition-all duration-200"></div>
+              <div className="w-0 h-px bg-[#551301] group-hover:w-full absolute bottom-0 left-0 transition-all duration-200"></div>
             </div>
           ))}
         </div>
