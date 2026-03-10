@@ -87,7 +87,7 @@ const Itinerary = () => {
 
       {/* ================================ */}
 
-      <div className="w-full h-fit flex flex-col z-20 COLOR_BG_CREAM space-y-10 max-lg:pb-[10vh] ">
+      <div className="w-full h-fit flex flex-col z-20 COLOR_BG_CREAM space-y-10 lg:space-y-20 lg:pt-20 max-lg:pb-[10vh] ">
         {/* div-1 */}
         <div className="w-full h-fit  max-sm:min-h-fit  items-center flex max-sm:flex-col  ">
           {/* Left */}
@@ -98,17 +98,10 @@ const Itinerary = () => {
               <span>
                 <span className="font-semibold"></span> 09/21/2026
               </span>
-              {/* <span>
-                <span className="font-semibold"></span> 11:00 AM - 7:30 PM
-              </span>
-              <span>
-                <span className="font-semibold"></span> Raffles Udaipur
-              </span> */}
+             
             </div>
 
-            {/* <h5 className="Font_Q text-[40px] leading-[45px] max-sm:text-center flex-wrap  my-6 uppercase px-[10%] text-center flex justify-center items-center">
-              Checkins <span className="mx-2 text-[12px] leading-[12px]"><FaStarOfLife/></span> Vidhi  <span className="mx-2 text-[12px] leading-[12px]"><FaStarOfLife/></span> Sangeet
-            </h5> */}
+          
             <h5 className="Font_Q text-[40px] leading-[45px] max-sm:text-center flex-wrap  my-6 uppercase px-[10%] text-center flex justify-center items-center">
               Sangeet
             </h5>
@@ -123,44 +116,6 @@ const Itinerary = () => {
             <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
               (No white red or gold )
             </span>
-
-            {/* <div className="w-full h-fit flex gap-5 justify-center items-center mt-5">
-              <Link href="/wedding">
-                <button
-                  className="button"
-                  style={{ backgroundColor: "#551301" }}
-                >
-                  <span className="button__icon-wrapper">
-                    <svg
-                      viewBox="0 0 14 15"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="button__icon-svg"
-                      width="10"
-                    >
-                      <path
-                        d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
-                        fill="currentColor"
-                      ></path>
-                    </svg>
-
-                    <svg
-                      viewBox="0 0 14 15"
-                      fill="none"
-                      width="10"
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="button__icon-svg button__icon-svg--copy "
-                    >
-                      <path
-                        d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
-                        fill="currentColor"
-                      ></path>
-                    </svg>
-                  </span>
-                  Explore Day 1
-                </button>
-              </Link>
-            </div> */}
           </div>
 
           {/* right */}
@@ -189,9 +144,7 @@ const Itinerary = () => {
               </span>
             </div>
 
-            {/* <h5 className="Font_Q text-[40px] leading-[45px] max-sm:text-center flex flex-wrap justify-center items-center  my-6 uppercase px-[10%] text-center ">
-              Chooda <span className="mx-2 text-[12px] leading-[12px]"><FaStarOfLife /></span> Haldi <span className="mx-2 text-[12px] leading-[12px]"><FaStarOfLife /></span> Safa Bandhi <span className="mx-2 text-[12px] leading-[12px]"><FaStarOfLife /></span> Baraat <span className="mx-2 text-[12px] leading-[12px]"><FaStarOfLife /></span> Varmala <span className="mx-2 text-[12px] leading-[12px]"><FaStarOfLife /></span> Phere
-            </h5> */}
+           
             <h5 className="Font_Q text-[40px] leading-[45px] max-sm:text-center flex flex-wrap justify-center items-center  my-6 uppercase px-[10%] text-center ">
               Haldi & Wedding
                </h5>
@@ -203,45 +156,7 @@ const Itinerary = () => {
             <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
               (No white red or gold )
             </span>
-            {/* <div className="w-full h-fit flex gap-5 justify-center items-center mt-5">
-              <Link href="/wedding">
-                <button
-                  className="button"
-                  style={{ backgroundColor: "#551301" }}
-                >
-                  <span className="button__icon-wrapper">
-                    <svg
-                      viewBox="0 0 14 15"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="button__icon-svg"
-                      width="10"
-                    >
-                      <path
-                        d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
-                        fill="currentColor"
-                      ></path>
-                    </svg>
-
-                    <svg
-                      viewBox="0 0 14 15"
-                      fill="none"
-                      width="10"
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="button__icon-svg button__icon-svg--copy "
-                    >
-                      <path
-                        d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
-                        fill="currentColor"
-                      ></path>
-                    </svg>
-                  </span>
-                  Discover Day 2
-                </button>
-              </Link>
-
-              
-            </div> */}
+            
           </div>
 
           {/* right */}
@@ -281,43 +196,7 @@ const Itinerary = () => {
             <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
               (No white red or gold )
             </span>
-            {/* <div className="w-full h-fit flex gap-5 justify-center items-center mt-5">
-              <Link href="/wedding">
-                <button
-                  className="button"
-                  style={{ backgroundColor: "#551301" }}
-                >
-                  <span className="button__icon-wrapper">
-                    <svg
-                      viewBox="0 0 14 15"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="button__icon-svg"
-                      width="10"
-                    >
-                      <path
-                        d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
-                        fill="currentColor"
-                      ></path>
-                    </svg>
-
-                    <svg
-                      viewBox="0 0 14 15"
-                      fill="none"
-                      width="10"
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="button__icon-svg button__icon-svg--copy "
-                    >
-                      <path
-                        d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
-                        fill="currentColor"
-                      ></path>
-                    </svg>
-                  </span>
-                  View Day 3
-                </button>
-              </Link>
-            </div> */}
+           
           </div>
 
           {/* right */}
