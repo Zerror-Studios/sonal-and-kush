@@ -113,9 +113,9 @@ const Itinerary = () => {
               ahead.
             </p>
 
-            <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
+            {/* <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
               (No white red or gold )
-            </span>
+            </span> */}
           </div>
 
           {/* right */}
@@ -153,9 +153,9 @@ const Itinerary = () => {
               A day rooted in tradition and bursting with celebration. From heartfelt rituals and vibrant ceremonies to the sacred vows and an electrifying after-party, this is where our forever truly begins.
             </p>
 
-            <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
+            {/* <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
               (No white red or gold )
-            </span>
+            </span> */}
             
           </div>
 
@@ -193,9 +193,9 @@ const Itinerary = () => {
               Sunlit moments give way to glamour and grandeur. A day of relaxed fun, heartfelt toasts, elegant celebrations, and dancing late into the night as we celebrate our new chapter together.
             </p>
 
-            <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
+            {/* <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
               (No white red or gold )
-            </span>
+            </span> */}
            
           </div>
 

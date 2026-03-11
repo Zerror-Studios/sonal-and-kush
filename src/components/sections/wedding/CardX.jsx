@@ -126,9 +126,10 @@ const CardX = () => {
               A night of music, dance, and pure celebration! Join us as family and friends come together to perform, celebrate our love story, and dance the night away.
             </p>
 
-            <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
-              (No white red or gold )
-            </span>
+             <span className=" px-[20px] Font_YV mt-2 text-[16px] leading-[16px] max-w-md text-center mx-auto">
+                (Join us in celebrating in joyful colors. We kindly request that guests do not wear white, red, or gold.)
+              </span> 
+              
           </div>
 
           {/* right */}
@@ -166,9 +167,10 @@ const CardX = () => {
             <p className=" Font_YV mt-2 leading-relaxed max-w-md text-center mx-auto">
               A celebration dipped in sunshine and laughter. Vibrant traditions, heartfelt blessings, and playful moments mark the joyful beginning of our wedding festivities.</p>
 
-            <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
-              (No white red or gold )
-            </span>
+           <span className=" px-[20px] Font_YV mt-2 text-[16px] leading-[16px] max-w-md text-center mx-auto">
+                (Join us for our vibrant, color-themed celebration — please wear yellow!)
+              </span>
+             
 
           </div>
 
@@ -177,7 +179,7 @@ const CardX = () => {
             {/* <p className="Font_YV font-semibold uppercase ">Day 2</p> */}
 
             <h5 className="Font_Q text-[40px] leading-[45px] max-sm:text-center flex flex-wrap justify-center items-center  my-6 uppercase px-[10%] text-center ">
-              Baraat
+             Wedding
             </h5>
 
 
@@ -194,9 +196,10 @@ const CardX = () => {
             <p className=" Font_YV mt-2 leading-relaxed max-w-md text-center mx-auto">
               An electrifying procession of music, rhythm, and celebration. Dancing through the celebrations in high-spirited joy as the groom makes his grand arrival.</p>
 
-            <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
-              (No white red or gold )
-            </span>
+             <span className=" px-[20px] Font_YV mt-2 text-[16px] leading-[16px] max-w-md text-center mx-auto">
+                (Join us in celebrating in beautiful pastel colors. We kindly request that guests do not wear white, red, or gold.)
+              </span> 
+              
 
           </div>
 
@@ -235,18 +238,16 @@ const CardX = () => {
               Sun, splashes, and effortless fun. A relaxed poolside celebration to soak in the final moments of the wedding festivities together.
             </p>
 
-            <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
-              (No white red or gold )
-            </span>
+           
 
           </div>
 
 
-           {/* Left 2 */}
+          {/* Left 2 */}
           <div className="w-1/2 max-sm:w-full h-fit max-sm:h-fit  max-sm:py-[2vh] max-sm:px-[20px] max-lg:px-[4vw] flex relative COLOR_BG_CREAM flex-col COLOR_TEXT_RED justify-center items-center">
             {/* <p className="Font_YV font-semibold uppercase ">Day 3</p> */}
 
-            
+
 
             <h5 className="Font_Q text-[40px] leading-[45px] flex flex-wrap justify-center items-center max-sm:text-center  my-6 uppercase  px-[10%] text-center">
               Reception
@@ -260,20 +261,21 @@ const CardX = () => {
             </div>
 
             <p className=" Font_YV mt-2 leading-relaxed max-w-md text-center mx-auto">
-             A night of glamour, gratitude, and celebration. An unforgettable evening of dining, speeches, music, and dancing as the newlyweds begin their next chapter.
+              A night of glamour, gratitude, and celebration. An unforgettable evening of dining, speeches, music, and dancing as the newlyweds begin their next chapter.
             </p>
 
-            <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
-              (No white red or gold )
-            </span>
+            <span className=" px-[20px] Font_YV mt-2 text-[16px] leading-[16px] max-w-md text-center mx-auto">
+                (Join us as we celebrate our reception together. We kindly request that guests do not wear white, red, or gold.)
+              </span>
+             
 
           </div>
 
-           {/* Left 3 */}
+          {/* Left 3 */}
           <div className="w-1/2 max-sm:w-full h-fit max-sm:h-fit  max-sm:py-[2vh] max-sm:px-[20px] max-lg:px-[4vw] flex relative COLOR_BG_CREAM flex-col COLOR_TEXT_RED justify-center items-center">
             {/* <p className="Font_YV font-semibold uppercase ">Day 3</p> */}
 
-            
+
 
             <h5 className="Font_Q text-[40px] leading-[45px] flex flex-wrap justify-center items-center max-sm:text-center  my-6 uppercase  px-[10%] text-center">
               After Party
@@ -287,12 +289,12 @@ const CardX = () => {
             </div>
 
             <p className=" Font_YV mt-2 leading-relaxed max-w-md text-center mx-auto">
-             Where the formalities fade and the real fun begins. An electric night of music, signature cocktails, and uninhibited celebration as we dance, laugh, and make memories long past midnight.
+              Where the formalities fade and the real fun begins. An electric night of music, signature cocktails, and uninhibited celebration as we dance, laugh, and make memories long past midnight.
             </p>
 
-            <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
-              (No white red or gold )
-            </span>
+            <span className=" px-[20px] Font_YV mt-2 text-[16px] leading-[16px] max-w-md text-center mx-auto">
+                (We can’t wait to celebrate with you! We kindly request that guests do not wear white or gold.)
+              </span>
 
           </div>
 
@@ -344,10 +346,9 @@ const CardX = () => {
                 and friends come together to perform, celebrate our love story,
                 and dance the night away.
               </p>
-              {/* <p className=" Font_YV mt-2 leading-relaxed max-w-md text-center mx-auto">
-              Steeped in tradition and splashed with sunshine. Come celebrate
-              our haldi with lively music, dancing, and happy moments.
-            </p> */}
+              <span className=" px-[20px] Font_YV mt-2 text-[16px] leading-[16px] max-w-md text-center mx-auto">
+                (Join us in celebrating in joyful colors. We kindly request that guests do not wear white, red, or gold.)
+              </span>
               {/* <span className="Text_YV font-semibold py-4 text-[14px] capitalize">
               ( no white red & gold )
             </span> */}
@@ -452,6 +453,11 @@ const CardX = () => {
                 of our wedding festivities.
               </p>
 
+              <span className=" px-[20px] Font_YV mt-2 text-[16px] leading-[16px] max-w-md text-center mx-auto">
+                (Join us for our vibrant, color-themed celebration — please wear yellow!)
+              </span>
+             
+
               {/* <span className="Text_YV font-semibold py-4 text-[14px] capitalize ">
               ( No White Red )
             </span> */}
@@ -483,7 +489,7 @@ const CardX = () => {
             {/* 4 Wedding */}
             <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[5vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
               <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
-                Baraat
+                Wedding
               </h5>
               <div className=" text-[16px] mt-6 flex flex-col justify-center max-sm:text-center items-center Font_YV gap-1">
                 <span>
@@ -502,6 +508,10 @@ const CardX = () => {
                 Dancing through the celebrations in high-spirited joy as the groom
                 makes his grand arrival.
               </p>
+
+               <span className=" px-[20px] Font_YV mt-2 text-[16px] leading-[16px] max-w-md text-center mx-auto">
+                (Join us in celebrating in beautiful pastel colors. We kindly request that guests do not wear white, red, or gold.)
+              </span> 
             </div>
 
             {/* 5 Wedding Dinner*/}
@@ -681,6 +691,12 @@ const CardX = () => {
                 evening of dining, speeches, music, and dancing as the newlyweds
                 begin their next chapter.
               </p>
+
+              <span className=" px-[20px] Font_YV mt-2 text-[16px] leading-[16px] max-w-md text-center mx-auto">
+                (Join us as we celebrate our reception together. We kindly request that guests do not wear white, red, or gold.)
+              </span>
+              
+             
               {/* <p className=" Font_YV mt-2 leading-relaxed max-w-md text-center mx-auto">
               Steeped in tradition and splashed with sunshine. Come celebrate our haldi with lively music, dancing, and happy moments.
             </p> */}
@@ -710,6 +726,11 @@ const CardX = () => {
                 night of music, signature cocktails, and uninhibited celebration
                 as we dance, laugh, and make memories long past midnight.
               </p>
+
+               <span className=" px-[20px] Font_YV mt-2 text-[16px] leading-[16px] max-w-md text-center mx-auto">
+                (We can’t wait to celebrate with you! We kindly request that guests do not wear white or gold.)
+              </span>
+              
             </div>
             {/* CHECK OUT */}
             {/* <div className="w-full max-sm:w-full h-fit py-[10vh] max-sm:h-fit max-sm:py-[10vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
