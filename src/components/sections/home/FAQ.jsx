@@ -266,27 +266,30 @@ export default function FAQ() {
       <div className="w-[80%] max-sm:w-full px-6 max-sm:px-[20px] flex flex-col gap-20">
         <h2 className="text-center Font_Q flex flex-col justify-center items-center max-sm:justify-start max-sm:mt-10 COLOR_TEXT_RED">
           FAQ
-          <p className=" capitalize Font_YV mt-7 font-bold max-w-[500px] max-sm:w-full max-sm:px-[10vw]">
+          <p className="  Font_YV mt-7 font-bold sm:pt-5 max-sm:w-full max-sm:px-[10vw]">
             For any wedding-related questions, please reach out to Sonal & Kush’s wedding planning team at:
           </p>
-          <div className=" w-fit h-fit flex flex-col sm:gap-2 mt-4 justify-center items-center">
+          <div className=" w-fit h-fit flex sm:gap-2 mt-4 justify-center items-center max-sm:flex-col">
 
              <a href="mailto:sonalskushie@gmail.com" >
               <div className=" relative group flex flex-col max-sm:mt-2">
-              <p className="capitalize Font_YV ">sonalskushie@gmail.com</p>
+              <p className="Font_YV ">sonalskushie@gmail.com</p>
               <div className="w-0 h-px bg-[#551301]  group-hover:w-full absolute bottom-[-1] left-0 transition-all duration-200"></div>
               </div>
             </a>
 
+            <p className="px-2 max-sm:hidden">|</p>
+
             <a href="tel:+919358800614">
               <div className=" relative group flex w-fit flex-col max-sm:mt-2">
-              <p className="capitalize Font_YV ">+91 93588 00614</p>
+              <p className="Font_YV ">+91 93588 00614</p>
               <div className="w-0 h-px bg-[#551301]  group-hover:w-full absolute bottom-[-1] left-0 transition-all duration-200"></div>
               </div>
             </a>
+            <p className="px-2 max-sm:hidden">|</p>
             <a href="tel:+919310069102">
               <div className=" relative group flex w-fit flex-col">
-              <p className="capitalize Font_YV max-sm:mt-2">+91 93100 69102</p>
+              <p className="Font_YV max-sm:mt-2">+91 93100 69102</p>
               <div className="w-0 h-px bg-[#551301]  group-hover:w-full absolute bottom-[-1] left-0 transition-all duration-200"></div>
               </div>
             </a>
