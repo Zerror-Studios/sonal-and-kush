@@ -126,13 +126,13 @@ Phone: +91 93588 00614, +91 93100 69102
     question: "Are children welcome at the events?",
     answer: `We love your little ones. Children are welcome at all events except the Cocktail Hour and Reception Phone No : +91 93588 00614.
 
-For guests traveling with children under the age of 12, please contact the wedding planners at __ to inquire about available nanny services.
+For guests traveling with children under the age of 12, please contact the wedding planners at sonalskushie@gmail.com  to inquire about available nanny services.
 `,
   },
   {
     id: 18,
     question: "Can I bring a plus one?",
-    answer: `If a plus one is not listed on your invitation and you would like to request one, please contact the wedding planners at __ for assistance.`,
+    answer: `If a plus one is not listed on your invitation and you would like to request one, please contact the wedding planners at sonalskushie@gmail.com  for assistance.`,
   },
   {
     id: 19,
@@ -159,7 +159,7 @@ Please refer to the Travel page on the website for detailed information regardin
   {
     id: 22,
     question: "What should I do if I need to cancel my reservation?",
-    answer: `Please contact the wedding planners at __ as soon as possible for assistance.
+    answer: `Please contact the wedding planners at sonalskushie@gmail.com  as soon as possible for assistance.
 `,
   },
 ];
@@ -266,18 +266,26 @@ export default function FAQ() {
       <div className="w-[80%] max-sm:w-full px-6 max-sm:px-[20px] flex flex-col gap-20">
         <h2 className="text-center Font_Q flex flex-col justify-center items-center max-sm:justify-start max-sm:mt-10 COLOR_TEXT_RED">
           FAQ
-          <p className=" capitalize Font_YV mt-7 font-bold">
-            For any questions
+          <p className=" capitalize Font_YV mt-7 font-bold max-w-[500px] max-sm:w-full max-sm:px-[10vw]">
+            For any wedding-related questions, please reach out to Sonal & Kush’s wedding planning team at:
           </p>
-          <div className="mt-2 w-fit h-fit flex max-sm:flex-col sm:gap-2">
+          <div className=" w-fit h-fit flex flex-col sm:gap-2 mt-4 justify-center items-center">
+
+             <a href="mailto:sonalskushie@gmail.com" >
+              <div className=" relative group flex flex-col max-sm:mt-2">
+              <p className="capitalize Font_YV ">sonalskushie@gmail.com</p>
+              <div className="w-0 h-px bg-[#551301]  group-hover:w-full absolute bottom-[-1] left-0 transition-all duration-200"></div>
+              </div>
+            </a>
+
             <a href="tel:+919358800614">
-              <div className=" relative group flex flex-col">
-              <p className="capitalize Font_YV ">+91 93588 00614,</p>
+              <div className=" relative group flex w-fit flex-col max-sm:mt-2">
+              <p className="capitalize Font_YV ">+91 93588 00614</p>
               <div className="w-0 h-px bg-[#551301]  group-hover:w-full absolute bottom-[-1] left-0 transition-all duration-200"></div>
               </div>
             </a>
             <a href="tel:+919310069102">
-              <div className=" relative group flex flex-col">
+              <div className=" relative group flex w-fit flex-col">
               <p className="capitalize Font_YV max-sm:mt-2">+91 93100 69102</p>
               <div className="w-0 h-px bg-[#551301]  group-hover:w-full absolute bottom-[-1] left-0 transition-all duration-200"></div>
               </div>
