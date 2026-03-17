@@ -44,7 +44,7 @@ const Footer = () => {
 
         <span className=" Font_YV flex gap-2 max-md:gap-0 max-md:mt-2  max-md:flex-col max-md:text-[14px] max-md:mx-auto max-md:text-center">
 
-          <a href="mailto:sonalskushie@gmail.com"><span className=" relative flex flex-col w-fit  group  cursor-pointer select-none max-md:mx-auto">  sonalskushie@gmail.com
+          <a href="mailto:sonalskushie@gmail.com"><span className=" relative flex flex-col w-fit  group  cursor-pointer select-none max-md:mx-auto font-semibold">  sonalskushie@gmail.com
             <div className="h-[1px] w-[0px] COLOR_BG_RED transition-all duration-150 ease-in-out group-hover:w-full select-none  ">
             </div>
           </span></a>
@@ -52,14 +52,14 @@ const Footer = () => {
 
           <span  className="max-md:hidden">|</span>
 
-          <a href="tel:+919358800614"><span className=" relative flex flex-col w-fit  group  cursor-pointer select-none max-md:mx-auto">  +91 93588 00614
+          <a href="tel:+919358800614"><span className=" relative flex flex-col w-fit  group  cursor-pointer select-none max-md:mx-auto font-semibold">  +91 93588 00614
             <div className="h-[1px] w-[0px] COLOR_BG_RED transition-all duration-150 ease-in-out group-hover:w-full select-none  ">
             </div>
           </span></a>
 
           <span  className="max-md:hidden">|</span>
 
-          <a href="tel:+919310069102"><span className=" relative flex flex-col w-fit  group  cursor-pointer select-none max-md:mx-auto">  +91 93100 69102
+          <a href="tel:+919310069102"><span className=" relative flex flex-col w-fit  group  cursor-pointer select-none max-md:mx-auto font-semibold">  +91 93100 69102
             <div className="h-[1px] w-[0px] COLOR_BG_RED transition-all duration-150 ease-in-out group-hover:w-full select-none  ">
             </div>
           </span></a>
@@ -71,16 +71,16 @@ const Footer = () => {
 
       <div className="w-fit ml-auto  flex  flex-col COLOR_TEXT_RED max-md:text-[14px] max-md:mx-auto max-md:text-center max-md:mt-5">
 
-        <span className=" Font_YV">Website designed & developed by :</span>
+        <span className=" Font_YV flex md:justify-end max-md:mx-auto ">Website designed & developed by :</span>
 
         <span className=" Font_YV flex gap-2">
-          <a href="https://www.bombaylettering.com/" target="blank"><span className=" relative flex flex-col w-fit  group  cursor-pointer select-none">  The Bombay Lettering Company
+          <a href="https://www.bombaylettering.com/" target="blank"><span className=" relative flex flex-col w-fit  group  cursor-pointer select-none font-semibold ">  The Bombay Lettering Company
             <div className="h-[1px] w-[0px] COLOR_BG_RED transition-all duration-150 ease-in-out group-hover:w-full select-none  ">
             </div>
           </span></a>
 
           &
-          <a href="https://www.zerrorstudios.com/" target="blank"><span className=" relative flex flex-col w-fit  group  cursor-pointer select-none">  Zerror Studios
+          <a href="https://www.zerrorstudios.com/" target="blank"><span className=" relative flex flex-col w-fit  group  cursor-pointer select-none font-semibold">  Zerror Studios
             <div className="h-[1px] w-[0px] COLOR_BG_RED transition-all duration-150 ease-in-out group-hover:w-full select-none  ">
             </div>
           </span></a>
