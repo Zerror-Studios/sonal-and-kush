@@ -70,7 +70,7 @@ const Footer = () => {
         </div>
 
         
-        <span className=" Font_YV flex ml-auto COLOR_BG_CREAM  border-t border-[#5513013b] w-full justify-end px-10 py-2">Payments are securely processed by EDD United Pvt. Ltd.</span>
+        <span className=" Font_YV flex ml-auto COLOR_BG_CREAM  border-t border-[#5513013b] w-full justify-end px-10 py-2 COLOR_TEXT_RED">Payments are securely processed by EDD United Pvt. Ltd.</span>
 
 
       </footer>
