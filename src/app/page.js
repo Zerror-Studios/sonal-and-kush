@@ -68,7 +68,7 @@ export default function Home() {
       <Countdown />
       <Hearts />
       <Destiny />
-      <Itinerary />
+      {/* <Itinerary /> */}
       {/* <FAQ /> */}
     </>
   );

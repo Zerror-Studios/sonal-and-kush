@@ -117,7 +117,7 @@ const TravelInfo = () => {
           </span>
         </button></a>
 
-        <span className="Font_YV text-[14px] mt-5 text-white/50">Payments are securely processed by EDD United Pvt. Ltd.</span>
+        <span className="Font_YV text-[16px] mt-5 text-white">Payments are securely processed by EDD United Pvt. Ltd.</span>
 
         {/* <div className="space-y-3 max-sm:space-y-4 ">
           <p className="uppercase Font_YV COLOR_TEXT_CREAM">
