@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="w-full COLOR_BG_CREAM py-8 border-t border-[#5513013b] max-md:px-5 px-10 flex max-md:flex-col max-md:justify-center max-sm:items-center">
+    <footer className="w-full COLOR_BG_CREAM py-8 border-t border-[#5513013b] max-md:px-5 px-10 flex max-md:flex-col max-md:justify-center max-sm:items-center ">
 
       {/* <div className="max-w-5xl mx-auto text-center flex flex-col gap-1 opacity-70 mt-2">
 
@@ -32,14 +32,14 @@ const Footer = () => {
 
 
 
-      <div className="w-fit h-fit flex justify-center items-center  ">
+      <div className="w-fit h-fit flex justify-center items-center   md:my-auto">
         <Link href={`/`} ><img src={`/svgs/CustomLogo.svg`} alt="Logo" className='h-[50px] object-cover object-center' /></Link>
       </div>
 
-      <div className="w-[1px] h-[50px] COLOR_BG_RED mx-10 COLOR_TEXT_RED max-md:w-[50px] max-md:h-[1px] max-md:hidden ">
+      <div className="w-[1px] h-[50px] COLOR_BG_RED mx-10 COLOR_TEXT_RED md:my-auto max-md:w-[50px] max-md:h-[1px] max-md:hidden ">
       </div>
 
-      <div className="w-1/2 flex flex-col COLOR_TEXT_RED max-sm:w-full max-md:mt-5  max-md:text-center ">
+      <div className="w-1/2 flex flex-col COLOR_TEXT_RED max-sm:w-full max-md:mt-5  max-md:text-center   justify-center">
         <span className=" Font_YV">⁠For any wedding-related questions, please reach out to Sonal & Kush’s wedding planning team at:</span>
 
         <span className=" Font_YV flex gap-2 max-md:gap-0 max-md:mt-2  max-md:flex-col max-md:text-[14px] max-md:mx-auto max-md:text-center">
@@ -69,11 +69,11 @@ const Footer = () => {
 
 
 
-      <div className="w-fit ml-auto  flex  flex-col COLOR_TEXT_RED max-md:text-[14px] max-md:mx-auto max-md:text-center max-md:mt-5">
+      <div className="w-fit ml-auto  flex  flex-col COLOR_TEXT_RED max-md:text-[14px] max-md:mx-auto max-md:text-center max-md:mt-5 ">
 
         <span className=" Font_YV flex md:justify-end max-md:mx-auto ">Website designed & developed by :</span>
 
-        <span className=" Font_YV flex gap-2">
+        <span className=" Font_YV flex gap-2 md:ml-auto max-md:mx-auto">
           <a href="https://www.bombaylettering.com/" target="blank"><span className=" relative flex flex-col w-fit  group  cursor-pointer select-none font-semibold ">  The Bombay Lettering Company
             <div className="h-[1px] w-[0px] COLOR_BG_RED transition-all duration-150 ease-in-out group-hover:w-full select-none  ">
             </div>
@@ -85,6 +85,8 @@ const Footer = () => {
             </div>
           </span></a>
         </span>
+
+        <span className=" Font_YV flex">Payments are securely processed by EDD United Pvt. Ltd.</span>
       </div>
 
     </footer>

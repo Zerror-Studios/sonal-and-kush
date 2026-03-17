@@ -7,6 +7,7 @@ import HomeHeroSection from "@/components/sections/home/HomeHeroSection";
 import Itinerary from "@/components/sections/home/Itinerary";
 import Line from "@/components/sections/home/Line";
 import WeddingHero from "@/components/sections/home/WeddingHero";
+import TravelInfo from "@/components/sections/venue/TravelInfo";
 import WebPageSchema from "@/components/seo/WebPageSchema";
 import { Const } from "@/components/utils/Constants";
 
@@ -69,6 +70,7 @@ export default function Home() {
       <Hearts />
       <Destiny />
       {/* <Itinerary /> */}
+      <TravelInfo />
       {/* <FAQ /> */}
     </>
   );
