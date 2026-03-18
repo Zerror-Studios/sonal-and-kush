@@ -8,7 +8,7 @@ const OrganizationSchema = () => {
     name: Const.Brand,
     logo: {
       "@type": "ImageObject",
-      url: `${Const?.ClientLink || ""}/imgs/logo/logo.png`,
+      url: `${Const?.ClientLink || ""}/svgs/CustomLogo.svg`,
       width: "160px",
       height: "90px",
     },
