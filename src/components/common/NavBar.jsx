@@ -124,7 +124,7 @@ const NavBar = () => {
       </div>
 
       {/* Right */}
-      <div className='w-1/3  h-full RVSPBTN items-center max-lg:hidden flex justify-between uppercase text-[14px]   COLOR_TEXT_RED'>
+      <div className='w-2/5  h-full RVSPBTN items-center max-lg:hidden flex justify-between uppercase text-[14px]   COLOR_TEXT_RED'>
 
 
         <Link href={`/faq`} ><div className={`w-fit h-fit ${pathname === '/faq' && (' border-b border-[#551301]')}  flex flex-col group relative  COLOR_TEXT_RED select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div>FAQ</div></Link>

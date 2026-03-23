@@ -48,11 +48,11 @@ const Footer = () => {
 
 
 
-          {/* <div className="w-fit ml-auto  flex  flex-col COLOR_TEXT_RED max-md:text-[14px] max-md:mx-auto max-md:text-center max-md:mt-5 ">
+          <div className="w-fit ml-auto  flex  flex-col COLOR_TEXT_RED max-md:text-[14px] max-md:mx-auto max-md:text-center max-md:mt-5 my-auto ">
 
-            <span className=" Font_YV flex md:justify-end max-md:mx-auto ">Website designed & developed by :</span>
+            <span className=" Font_YV flex md:justify-end max-md:mx-auto font-semibold ">Payments are securely processed by EDD United Pvt. Ltd.</span>
 
-            <span className=" Font_YV flex gap-2 md:ml-auto max-md:mx-auto">
+            {/* <span className=" Font_YV flex gap-2 md:ml-auto max-md:mx-auto">
               <a href="https://www.bombaylettering.com/" target="blank"><span className=" relative flex flex-col w-fit  group  cursor-pointer select-none font-semibold ">  The Bombay Lettering Company
                 <div className="h-[1px] w-[0px] COLOR_BG_RED transition-all duration-150 ease-in-out group-hover:w-full select-none  ">
                 </div>
@@ -63,14 +63,14 @@ const Footer = () => {
                 <div className="h-[1px] w-[0px] COLOR_BG_RED transition-all duration-150 ease-in-out group-hover:w-full select-none  ">
                 </div>
               </span></a>
-            </span>
+            </span> */}
 
-          </div> */}
+          </div>
 
         </div>
 
         
-        <span className=" Font_YV flex ml-auto COLOR_BG_CREAM  border-t border-[#5513013b] w-full justify-end px-10 py-2 COLOR_TEXT_RED font-semibold">Payments are securely processed by EDD United Pvt. Ltd.</span>
+        {/* <span className=" Font_YV flex ml-auto COLOR_BG_CREAM  border-t border-[#5513013b] w-full justify-end px-10 py-2 COLOR_TEXT_RED font-semibold">Payments are securely processed by EDD United Pvt. Ltd.</span> */}
 
 
       </footer>

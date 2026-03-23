@@ -90,7 +90,7 @@ const exploreIndia = () => {
             <div className="w-fit h-fit flex  ">
               <div className="w-[413px] aspect-[4/5]  overflow-hidden img5">
                 <Image
-                  src={`/india/jaipur1.jpeg`}
+                  src={`/india/jaipur1.webp`}
                   className="w-full h-full  object-cover object-center scale-[1.2]"
                   width={1000}
                   height={1000}
@@ -175,7 +175,7 @@ const exploreIndia = () => {
             <div className="w-fit h-fit flex  ">
               <div className="w-[50vw] h-fit  overflow-hidden img5">
                 <Image
-                  src={`/india/Delhi1.jpeg`}
+                  src={`/india/Delhi1.webp`}
                   className="w-full h-full  object-cover object-center scale-[1.2]"
                   width={2000}
                   height={2000}
@@ -204,7 +204,7 @@ const exploreIndia = () => {
           <div className=" animate_child w-fit h-screen mr-[2vw] flex justify-center items-center">
             <div className="w-[70vw] h-screen flex overflow-hidden ">
               <img
-                src={`/india/Delhi2.jpeg`}
+                src={`/india/Delhi2.webp`}
                 className="w-full h-full object-cover  object-center"
                 alt="Img"
               />
@@ -216,7 +216,7 @@ const exploreIndia = () => {
             <div className="w-fit h-fit flex  ">
               <div className="w-[50vw]  aspect-[3/2]  overflow-hidden img5">
                 <Image
-                  src={`/india/AGRA1.jpeg`}
+                  src={`/india/AGRA1.webp`}
                   className="w-full h-full  object-cover object-center scale-[1.2]"
                   width={2000}
                   height={2000}
@@ -245,7 +245,7 @@ const exploreIndia = () => {
           <div className="animate_child w-fit h-screen mr-[2vw] flex justify-center items-center">
             <div className="w-[413px] aspect-[4/5] flex overflow-hidden ">
               <Image
-                src={`/india/AGRA2.jpeg`}
+                src={`/india/AGRA2.webp`}
                 className="w-full h-full object-cover  object-center"
                 width={1000}
                 height={1000}
@@ -261,7 +261,7 @@ const exploreIndia = () => {
             <div className="w-fit h-fit flex  ">
               <div className="w-[50vw] h-fit  overflow-hidden img5">
                 <Image
-                  src={`/india/Mumbai1.jpeg`}
+                  src={`/india/Mumbai1.webp`}
                   className="w-full h-full  object-cover object-center scale-[1.2]"
                   width={2000}
                   height={2000}
@@ -290,7 +290,7 @@ const exploreIndia = () => {
           <div className=" animate_child w-fit h-screen mr-[2vw] flex justify-center items-center">
             <div className="w-[70vw] h-screen flex overflow-hidden ">
               <img
-                src={`/india/Mumbai2.jpeg`}
+                src={`/india/Mumbai2.webp`}
                 className="w-full h-full object-cover  object-center"
 
                 alt="Img"
@@ -303,7 +303,7 @@ const exploreIndia = () => {
             <div className="w-fit h-fit flex  ">
               <div className="w-[413px] aspect-[4/5]  overflow-hidden img5">
                 <Image
-                  src={`/india/Goa1.jpg`}
+                  src={`/india/Goa1.webp`}
                   className="w-full h-full  object-cover object-center scale-[1.2]"
                   width={1000}
                   height={1000}
@@ -332,7 +332,7 @@ const exploreIndia = () => {
           <div className=" w-fit h-screen mr-[2vw] flex justify-center items-center">
             <div className="w-[413px] aspect-[4/5] flex overflow-hidden ">
               <Image
-                src={`/india/Goa2.jpeg`}
+                src={`/india/Goa2.webp`}
                 className="w-full h-full object-cover  object-center"
                 width={1000}
                 height={1000}
@@ -375,7 +375,7 @@ const exploreIndia = () => {
           <div className=" animate_child w-fit h-screen mr-[2vw] flex justify-center items-center">
             <div className="w-[413px] aspect-[4/5] flex overflow-hidden ">
               <Image
-                src={`/india/Kerala2.jpeg`}
+                src={`/india/Kerala2.webp`}
                 className="w-full h-full object-cover  object-center"
                 width={1000}
                 height={1000}
@@ -389,7 +389,7 @@ const exploreIndia = () => {
             <div className="w-fit h-fit flex  ">
               <div className="w-[50vw] h-fit  overflow-hidden img5">
                 <Image
-                  src={`/india/Jammu1.jpg`}
+                  src={`/india/Jammu1.webp`}
                   className="w-full h-full  object-cover object-center scale-[1.2]"
                   width={2000}
                   height={2000}
@@ -418,7 +418,7 @@ const exploreIndia = () => {
           <div className=" animate_child w-fit h-screen mr-[2vw] flex justify-center items-center">
             <div className="w-[70vw] h-screen flex overflow-hidden ">
               <img
-                src={`/india/Jammu2.jpeg`}
+                src={`/india/Jammu2.webp`}
                 className="w-full h-full object-cover  object-center"
                 alt="Img"
               />
@@ -476,7 +476,7 @@ const exploreIndia = () => {
             <div className="w-fit h-fit flex  ">
               <div className="w-[50vw] h-fit  overflow-hidden img5">
                 <Image
-                  src={`/india/Uttarakhand1.jpeg`}
+                  src={`/india/Uttarakhand1.webp`}
                   className="w-full h-full  object-cover object-center scale-[1.2]"
                   width={2000}
                   height={2000}
@@ -505,7 +505,7 @@ const exploreIndia = () => {
           <div className=" animate_child w-fit h-screen mr-[2vw] flex justify-center items-center">
             <div className="w-[70vw] h-screen flex overflow-hidden ">
               <img
-                src={`/india/Uttarakhand1.jpeg`}
+                src={`/india/Uttarakhand1.webp`}
                 className="w-full h-full object-cover  object-center"
 
                 alt="Img"
@@ -518,7 +518,7 @@ const exploreIndia = () => {
             <div className="w-fit h-fit flex  ">
               <div className="w-[413px] aspect-[4/5]  overflow-hidden img5">
                 <Image
-                  src={`/india/Andaman1.jpg`}
+                  src={`/india/Andaman1.webp`}
                   className="w-full h-full  object-cover object-center scale-[1.2]"
                   width={1000}
                   height={1000}
@@ -547,7 +547,7 @@ const exploreIndia = () => {
           <div className=" w-fit h-screen mr-[2vw] flex justify-center items-center">
             <div className="w-[413px] aspect-[4/5] flex overflow-hidden ">
               <Image
-                src={`/india/Andaman2.jpeg`}
+                src={`/india/Andaman2.webp`}
                 className="w-full h-full object-cover  object-center"
                 width={1000}
                 height={1000}
@@ -561,7 +561,7 @@ const exploreIndia = () => {
             <div className="w-fit h-fit flex  ">
               <div className="w-[50vw] h-screen  overflow-hidden img5">
                 <Image
-                  src={`/india/Lakshadweep1.jpg`}
+                  src={`/india/Lakshadweep1.webp`}
                   className="w-full h-full  object-cover object-center scale-[1.2]"
                   width={2000}
                   height={2000}
@@ -689,7 +689,7 @@ const exploreIndia = () => {
             <div className="w-fit h-fit flex  ">
               <div className="w-[50vw] h-fit  overflow-hidden img5">
                 <Image
-                  src={`/india/Nepal1.jpg`}
+                  src={`/india/Nepal1.webp`}
                   className="w-full h-full  object-cover object-center scale-[1.2]"
                   width={2000}
                   height={2000}
@@ -863,7 +863,7 @@ const exploreIndia = () => {
 
           {/* img1 */}
           <div className="w-full aspect-2/1 overflow-hidden ">
-            <img src={`/india/jaipur1.jpeg`} className="w-full h-full object-cover  object-center" alt="img" />
+            <img src={`/india/jaipur1.webp`} className="w-full h-full object-cover  object-center" alt="img" />
           </div>
 
           {/* img2 */}
@@ -919,12 +919,12 @@ const exploreIndia = () => {
 
           {/* img1 */}
           <div className="w-full aspect-2/1 overflow-hidden ">
-            <img src={`/india/Delhi1.jpeg`} className="w-full h-full object-cover  object-center" alt="img" />
+            <img src={`/india/Delhi1.webp`} className="w-full h-full object-cover  object-center" alt="img" />
           </div>
 
           {/* img2 */}
           <div className="w-full aspect-1/1 overflow-hidden ">
-            <img src={`/india/Delhi2.jpeg`} className="w-full h-full object-cover  object-center" alt="img" />
+            <img src={`/india/Delhi2.webp`} className="w-full h-full object-cover  object-center" alt="img" />
           </div>
 
           {/* 4 ---------------------------------------------------------------------------------- */}
@@ -947,12 +947,12 @@ const exploreIndia = () => {
 
           {/* img1 */}
           <div className="w-full aspect-2/1 overflow-hidden ">
-            <img src={`/india/AGRA1.jpeg`} className="w-full h-full object-cover  object-center" alt="img" />
+            <img src={`/india/AGRA1.webp`} className="w-full h-full object-cover  object-center" alt="img" />
           </div>
 
           {/* img2 */}
           <div className="w-full aspect-1/1 overflow-hidden ">
-            <img src={`/india/AGRA2.jpeg`} className="w-full h-full object-cover  object-center" alt="img" />
+            <img src={`/india/AGRA2.webp`} className="w-full h-full object-cover  object-center" alt="img" />
           </div>
 
           {/* 5 ---------------------------------------------------------------------------------- */}
@@ -975,12 +975,12 @@ const exploreIndia = () => {
 
           {/* img1 */}
           <div className="w-full aspect-2/1 overflow-hidden ">
-            <img src={`/india/Mumbai1.jpeg`} className="w-full h-full object-cover  object-center" alt="img" />
+            <img src={`/india/Mumbai1.webp`} className="w-full h-full object-cover  object-center" alt="img" />
           </div>
 
           {/* img2 */}
           <div className="w-full aspect-1/1 overflow-hidden ">
-            <img src={`/india/Mumbai2.jpeg`} className="w-full h-full object-cover  object-center" alt="img" />
+            <img src={`/india/Mumbai2.webp`} className="w-full h-full object-cover  object-center" alt="img" />
           </div>
 
           {/* 1 ---------------------------------------------------------------------------------- */}
@@ -1003,12 +1003,12 @@ const exploreIndia = () => {
 
           {/* img1 */}
           <div className="w-full aspect-2/1 overflow-hidden ">
-            <img src={`/india/Goa1.jpg`} className="w-full h-full object-cover  object-center" alt="img" />
+            <img src={`/india/Goa1.webp`} className="w-full h-full object-cover  object-center" alt="img" />
           </div>
 
           {/* img2 */}
           <div className="w-full aspect-1/1 overflow-hidden ">
-            <img src={`/india/Goa2.jpeg`} className="w-full h-full object-cover  object-center" alt="img" />
+            <img src={`/india/Goa2.webp`} className="w-full h-full object-cover  object-center" alt="img" />
           </div>
 
           {/* 2 ---------------------------------------------------------------------------------- */}
@@ -1036,7 +1036,7 @@ const exploreIndia = () => {
 
           {/* img2 */}
           <div className="w-full aspect-1/1 overflow-hidden ">
-            <img src={`/india/Kerala2.jpeg`} className="w-full h-full object-cover  object-center" alt="img" />
+            <img src={`/india/Kerala2.webp`} className="w-full h-full object-cover  object-center" alt="img" />
           </div>
 
           {/* 3 ---------------------------------------------------------------------------------- */}
@@ -1059,12 +1059,12 @@ const exploreIndia = () => {
 
           {/* img1 */}
           <div className="w-full aspect-2/1 overflow-hidden ">
-            <img src={`/india/Jammu1.jpg`} className="w-full h-full object-cover  object-center" alt="img" />
+            <img src={`/india/Jammu1.webp`} className="w-full h-full object-cover  object-center" alt="img" />
           </div>
 
           {/* img2 */}
           <div className="w-full aspect-1/1 overflow-hidden ">
-            <img src={`/india/Jammu2.jpeg`} className="w-full h-full object-cover  object-center" alt="img" />
+            <img src={`/india/Jammu2.webp`} className="w-full h-full object-cover  object-center" alt="img" />
           </div>
 
           {/* 4 ---------------------------------------------------------------------------------- */}
@@ -1115,12 +1115,12 @@ const exploreIndia = () => {
 
           {/* img1 */}
           <div className="w-full aspect-2/1 overflow-hidden ">
-            <img src={`/india/Uttarakhand1.jpeg`} className="w-full h-full object-cover  object-center" alt="img" />
+            <img src={`/india/Uttarakhand1.webp`} className="w-full h-full object-cover  object-center" alt="img" />
           </div>
 
           {/* img2 */}
           <div className="w-full aspect-1/1 overflow-hidden ">
-            <img src={`/india/Uttarakhand1.jpeg`} className="w-full h-full object-cover  object-center" alt="img" />
+            <img src={`/india/Uttarakhand1.webp`} className="w-full h-full object-cover  object-center" alt="img" />
           </div>
 
           {/* 1 ---------------------------------------------------------------------------------- */}
@@ -1143,12 +1143,12 @@ const exploreIndia = () => {
 
           {/* img1 */}
           <div className="w-full aspect-2/1 overflow-hidden ">
-            <img src={`/india/Andaman1.jpg`} className="w-full h-full object-cover  object-center" alt="img" />
+            <img src={`/india/Andaman1.webp`} className="w-full h-full object-cover  object-center" alt="img" />
           </div>
 
           {/* img2 */}
           <div className="w-full aspect-1/1 overflow-hidden ">
-            <img src={`/india/Andaman2.jpeg`} className="w-full h-full object-cover  object-center" alt="img" />
+            <img src={`/india/Andaman2.webp`} className="w-full h-full object-cover  object-center" alt="img" />
           </div>
 
           {/* 2 ---------------------------------------------------------------------------------- */}
@@ -1171,7 +1171,7 @@ const exploreIndia = () => {
 
           {/* img1 */}
           <div className="w-full aspect-2/1 overflow-hidden ">
-            <img src={`/india/Lakshadweep1.jpg`} className="w-full h-full object-cover  object-center" alt="img" />
+            <img src={`/india/Lakshadweep1.webp`} className="w-full h-full object-cover  object-center" alt="img" />
           </div>
 
           {/* img2 */}
@@ -1204,7 +1204,7 @@ const exploreIndia = () => {
 
           {/* img2 */}
           <div className="w-full aspect-1/1 overflow-hidden ">
-            <img src={`/imgs/explorNewImg/pales.jpg`} className="w-full h-full object-cover  object-center" alt="img" />
+            <img src={`/imgs/explorNewImg/pales.webp`} className="w-full h-full object-cover  object-center" alt="img" />
           </div>
 
           {/* 4 ---------------------------------------------------------------------------------- */}
@@ -1255,7 +1255,7 @@ const exploreIndia = () => {
 
           {/* img1 */}
           <div className="w-full aspect-2/1 overflow-hidden ">
-            <img src={`/india/Nepal1.jpg`} className="w-full h-full object-cover  object-center" alt="img" />
+            <img src={`/india/Nepal1.webp`} className="w-full h-full object-cover  object-center" alt="img" />
           </div>
 
           {/* img2 */}

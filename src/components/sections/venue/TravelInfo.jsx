@@ -59,13 +59,13 @@ const TravelInfo = () => {
   }, [])
 
   return (
-    <section className="relative COLOR_BG_RED py-32 px-6 overflow-hidden">
+    <section className="relative COLOR_BG_RED py-32 px-6 overflow-hidden ">
 
       {/* Background oversized text */}
       <div className="absolute inset-0 flex flex-col justify-center gap-10 COLOR_TEXT_CREAM opacity-5 pointer-events-none">
 
         {/* ROW 1 */}
-        <div className="flex whitespace-nowrap uppercase Font_Q" ref={row1}>
+        <div className="flex whitespace-nowrap uppercase Font_Q " ref={row1}>
           {[...Array(16)].map((_, i) => (
             <h5 key={i} className="text-[7vw] leading-[7vw] max-sm:text-[20vw] max-sm:leading-[20vw]">
               Travel Information
@@ -83,7 +83,7 @@ const TravelInfo = () => {
         </div>
 
         {/* ROW 3 */}
-        <div className="flex whitespace-nowrap uppercase Font_Q" ref={row3}>
+        <div className="flex whitespace-nowrap uppercase Font_Q  mb-7" ref={row3}>
           {[...Array(16)].map((_, i) => (
             <h5 key={i} className="text-[7vw] leading-[7vw] max-sm:text-[20vw] max-sm:leading-[20vw]">
               Travel Information
