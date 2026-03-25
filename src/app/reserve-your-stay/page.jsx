@@ -186,7 +186,7 @@ export default function ReserveYourStay() {
 
             // ── Step 2: Open Razorpay Checkout ─────────────────
             const options = {
-                key: process.env.RAZORPAY_KEY_ID,
+                key: process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID,
                 amount: orderData.amount,
                 currency: orderData.currency,
                 name: "Sonal's Kushie",
