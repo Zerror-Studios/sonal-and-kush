@@ -3,6 +3,7 @@ import React, { useRef } from "react"
 import gsap from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 import { useGSAP } from "@gsap/react"
+import Link from "next/link"
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -107,15 +108,16 @@ const TravelInfo = () => {
         <p className="Font_YV text-white">
           Please book your rooms at the earliest. Rooms will be allocated on a first-come, first-served basis, based on confirmed reservations.
         </p>
+       
 
-        <a href="https://pages.razorpay.com/pl_SQkTjtYZ04Fyph/view" target="blank"><button className="w-fit h-fit group  py-2.5 px-5 COLOR_BG_CREAM mt-5 transition-all duration-200 ease-linear Font_YV hover:rounded-[8px] hover:scale-[0.98] select-none cursor-pointer">
+       <Link href={`/reserve-your-stay`} ><button className="w-fit h-fit group  py-2.5 px-5 COLOR_BG_CREAM mt-5 transition-all duration-200 ease-linear Font_YV hover:rounded-[8px] hover:scale-[0.98] select-none cursor-pointer">
           <span className="w-fit h-fit flex flex-col">
            Reserve Your Stay
            <div className="h-[1px] COLOR_BG_RED w-[0px] transition-all duration-200 ease-linear group-hover:w-full ">
 
            </div>
           </span>
-        </button></a>
+        </button></Link>
 
         <span className="Font_YV text-[16px] mt-5 text-white">Payments are securely processed by EDD United Pvt. Ltd.</span>
 
