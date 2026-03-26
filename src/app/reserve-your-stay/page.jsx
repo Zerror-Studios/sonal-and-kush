@@ -312,7 +312,7 @@ export default function ReserveYourStay() {
                         {/* Meta info */}
                         <div className="space-y-1.5 mb-6 COLOR_TEXT_CREAM Font_Q">
                             <MetaRow label="Venue" value="Sonal's Kushie" />
-                            <MetaRow label="Location" value="Luxury Wedding Destination" />
+                            <MetaRow label="Location" value="Raffles Udaipur" />
                             <MetaRow label="Dates Available" value="21 – 24 September 2026" />
                         </div>
 
