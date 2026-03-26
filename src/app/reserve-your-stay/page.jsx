@@ -358,7 +358,7 @@ export default function ReserveYourStay() {
                                 The amount transferred is non refundable and non transferrable.
                             </p>
                             <p className="text-[11px] sm:text-xs Font_YV leading-relaxed COLOR_TEXT_CREAM">
-                                You agree to share information entered on this page with Sonal's Kushie (owner of this page) and Razorpay, adhering to their terms and conditions.
+                                You agree to share information entered on this page with Sonal & Kush and Razorpay, adhering to their terms and conditions.
                             </p>
                         </div>
                     </div>
