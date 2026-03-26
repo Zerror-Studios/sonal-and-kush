@@ -117,7 +117,7 @@ function DateField({ label, value, min, max, onChange, error }) {
 /* ─── Main Component ──────────────────────────────────────────── */
 export default function ReserveYourStay() {
     const [isProcessing, setIsProcessing] = useState(false);
-    const [paymentSuccess, setPaymentSuccess] = useState(false);
+    const [paymentSuccess, setPaymentSuccess] = useState(false); 
 
     const {
         register,
@@ -266,7 +266,8 @@ export default function ReserveYourStay() {
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
                     </div>
-                    <h2 className="text-2xl Font_Q COLOR_TEXT_RED mb-2">Booking Confirmed!</h2>
+                    <h2 className=" Font_Q COLOR_TEXT_RED mb-7 max-sm:mb-2">Booking </h2>
+                    <h2 className=" Font_Q COLOR_TEXT_RED mb-10 max-sm:mb-6">Confirmed!</h2>
                     <p className="text-sm Font_YV text-[#7a6a55] mb-6">
                         Thank you for your booking at Sonal's Kushie. A confirmation will be sent to your email.
                     </p>
@@ -278,7 +279,9 @@ export default function ReserveYourStay() {
                         <p className="text-xs Font_YV COLOR_TEXT_RED font-semibold">💰 {formatINR(total)}</p>
                     </div>
                     <p className="text-[10px] Font_YV text-[#7a6a55]">
-                        For assistance: sonalskushie@gmail.com · +91 93588 00614
+                        For assistance: sonalskushie@gmail.com,  
+                        <br/>
+                        +91 93588 00614
                     </p>
                 </div>
             </div>
