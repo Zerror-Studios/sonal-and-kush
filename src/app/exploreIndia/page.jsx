@@ -82,6 +82,14 @@ const exploreIndia = () => {
               <p className=" uppercase Font_YV COLOR_TEXT_RED contA6">
                 Before or After Udaipur — Where to Go
               </p>
+
+              <span className=" w-full max-w-[460px] flex flex-col justify-center items-center text-center  Font_YV COLOR_TEXT_RED">
+                If you’d like to plan a customized trip before or after the wedding, please contact our trusted travel partners. (Breakaway Travel)
+                {/* <span className="mt-2"></span> */}
+                <span className="mt-2 font-semibold group">Shilpa Sharma - <a href="tel:+91 93100 69102"><span className="select-none cursor-pointer relative">+91 93100 69102 
+                  <div className=" absolute bottom-0 left-0 h-[1px] COLOR_BG_RED transition-all duration-150 ease-out w-0 group-hover:w-full"></div>
+                  </span></a></span>
+              </span>
             </div>
           </div>
 
@@ -841,9 +849,18 @@ const exploreIndia = () => {
               <div className="text-[#395238] text-[18px] contA6 COLOR_TEXT_RED text-center Font_YV flex">
                 Planning to turn this wedding into a longer India journey? You’re in the right place. India offers an incredible mix of culture, landscapes, food, and heritage — and Udaipur is just the beginning. Whether you’re arriving early or staying on after the celebrations, there’s so much to discover.</div>
             </div>
+
             <p className=" uppercase Font_YV COLOR_TEXT_RED contA6">
               Before or After Udaipur — Where to Go
             </p>
+
+            <span className=" w-full max-w-[460px] flex flex-col justify-center items-center text-center  Font_YV COLOR_TEXT_RED">
+              If you’d like to plan a customized trip before or after the wedding, please contact our trusted travel partners. (Breakaway Travel)
+              {/* <span className="mt-2"></span> */}
+              <span className="mt-2  font-semibold group">Shilpa Sharma - <a href="tel:+91 93100 69102"><span className="select-none cursor-pointer relative">+91 93100 69102
+                <div className=" absolute bottom-0 left-0 h-[1px] COLOR_BG_RED transition-all duration-150 ease-out w-0 group-hover:w-full"></div>
+                </span></a></span>
+            </span>
           </div>
 
           {/* text */}
