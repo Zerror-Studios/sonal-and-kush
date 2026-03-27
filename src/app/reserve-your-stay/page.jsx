@@ -9,7 +9,7 @@ import { z } from "zod";
 const DATE_MIN = "2026-09-21"; // earliest check-in
 const DATE_MAX = "2026-09-24"; // latest check-out
 
-const PRICE_PER_ROOM_PER_NIGHT = 62100;
+const PRICE_PER_ROOM_PER_NIGHT = 100; //62100
 
 
 const rateRows = [
@@ -117,7 +117,7 @@ function DateField({ label, value, min, max, onChange, error }) {
 /* ─── Main Component ──────────────────────────────────────────── */
 export default function ReserveYourStay() {
     const [isProcessing, setIsProcessing] = useState(false);
-    const [paymentSuccess, setPaymentSuccess] = useState(false); 
+    const [paymentSuccess, setPaymentSuccess] = useState(false);
 
     const {
         register,
@@ -279,8 +279,8 @@ export default function ReserveYourStay() {
                         <p className="text-xs Font_YV COLOR_TEXT_RED font-semibold">💰 {formatINR(total)}</p>
                     </div>
                     <p className="text-[10px] Font_YV text-[#7a6a55]">
-                        For assistance: sonalskushie@gmail.com,  
-                        <br/>
+                        For assistance: sonalskushie@gmail.com,
+                        <br />
                         +91 93588 00614
                     </p>
                 </div>
