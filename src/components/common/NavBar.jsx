@@ -137,7 +137,7 @@ const NavBar = () => {
         <Link
           target="_blank"
           rel="noopener noreferrer"
-          href={`https://sonalandkush.rsvpify.com/rsvp-page-preview/1252849?signature=235b1d68860e41829c9570d80795912fa2bf5f030023fc95842583c3eca6cee8&securityToken=esXDu9juQOnJn9BH6C1HxIIu9kTXtrLv`}>
+          href={`https://sonalandkush.rsvpify.com`}>
           <div className='w-fit h-[46px] RVSPBTN max-md:hidden select-none cursor-pointer flex flex-col justify-center items-center px-[17px] py-[6px] text-[14px] text-white COLOR_BG_RED opacity-80 group '>
             <div className='w-fit '>
               RSVP HERE
@@ -165,7 +165,7 @@ const NavBar = () => {
 
         {/* <div className='w-fit h-fit flex flex-col group relative  select-none COLOR_TEXT_REDcursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_TEXT_RED'></div> FAQ</div> */}
         {/* BTN */}
-        <Link target="_blank" rel="noopener noreferrer" href={`https://sonalandkush.rsvpify.com/rsvp-page-preview/1252849?signature=235b1d68860e41829c9570d80795912fa2bf5f030023fc95842583c3eca6cee8&securityToken=esXDu9juQOnJn9BH6C1HxIIu9kTXtrLv`}>
+        <Link target="_blank" rel="noopener noreferrer" href={`https://sonalandkush.rsvpify.com`}>
           <div className='w-fit h-[46px] lg:hidden select-none cursor-pointer flex flex-col justify-center items-center px-[17px] py-[6px] text-[16px] mt-20 text-[white] COLOR_BG_RED'>
             RSVP HERE
 
