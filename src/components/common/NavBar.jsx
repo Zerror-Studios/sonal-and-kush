@@ -112,10 +112,11 @@ const NavBar = () => {
   return (
     <div ref={navRef} className='w-full h-[46px] mt-10 flex justify-between fixed top-0 left-0   items-center z-100 px-20'>
       {/* Left */}
-      <div className='w-1/3 h-full RVSPBTN items-center max-lg:hidden flex justify-between uppercase text-[14px] COLOR_TEXT_RED '>
+      <div className='w-1/3 h-full RVSPBTN items-center max-lg:hidden flex justify-between uppercase text-[12px] COLOR_TEXT_RED '>
         <Link href={`/`} ><div className={`w-fit ${pathname === '/' && (' border-b border-[#551301]')} h-fit flex flex-col group relative COLOR_TEXT_RED  select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div> The wedding</div></Link>
         <Link href={`/wedding`} ><div className={`w-fit h-fit ${pathname === '/wedding' && (' border-b border-[#551301]')}  flex flex-col group COLOR_TEXT_RED relative  select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div> Itinerary</div></Link>
         <Link href={`/venue`} ><div className={`w-fit h-fit ${pathname === '/venue' && (' border-b border-[#551301]')}  flex flex-col group relative COLOR_TEXT_RED  select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div>Hotel & Reservations</div></Link>
+        <Link href={`/hair-and-makeup`} ><div className={`w-fit h-fit ${pathname === '/venue' && (' border-b border-[#551301]')}  flex flex-col group relative COLOR_TEXT_RED  select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div>Hair & Makeup</div></Link>
       </div>
 
       {/* Logo */}
@@ -124,7 +125,7 @@ const NavBar = () => {
       </div>
 
       {/* Right */}
-      <div className='w-2/5  h-full RVSPBTN items-center max-lg:hidden flex justify-between uppercase text-[14px]   COLOR_TEXT_RED'>
+      <div className='w-2/5  h-full RVSPBTN items-center max-lg:hidden flex justify-between uppercase text-[12px]   COLOR_TEXT_RED'>
 
 
         <Link href={`/faq`} ><div className={`w-fit h-fit ${pathname === '/faq' && (' border-b border-[#551301]')}  flex flex-col group relative  COLOR_TEXT_RED select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div>FAQ</div></Link>
@@ -140,7 +141,7 @@ const NavBar = () => {
           href={`https://sonalandkush.rsvpify.com`}>
           <div className='w-fit h-[46px] RVSPBTN max-md:hidden select-none cursor-pointer flex flex-col justify-center items-center px-[17px] py-[6px] text-[14px] text-white COLOR_BG_RED opacity-80 group '>
             <div className='w-fit '>
-              RSVP HERE
+             CONFIRM ATTENDANCE
               <div className='w-[0px] group-hover:w-full transition-all duration-150 ease-in h-[1px] bg-[white]'></div>
             </div>
           </div>
@@ -158,6 +159,7 @@ const NavBar = () => {
         <Link href={`/`}><div onClick={clickCheck} className='w-fit h-fit flex flex-col smNavItem opacity-0 group relative COLOR_TEXT_RED  select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out bg-[white]'></div>wedding</div></Link>
         <Link href={`/wedding`}><div onClick={clickCheck} className='w-fit h-fit flex smNavItem opacity-0 flex-col group COLOR_TEXT_RED relative  select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out bg-[white]'></div> Itinerary</div></Link>
         <Link href={`/venue`}><div onClick={clickCheck} className='w-fit h-fit flex smNavItem opacity-0 flex-col group relative COLOR_TEXT_RED  select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out bg-[white]'></div> Hotel & Reservations</div></Link>
+        <Link href={`/hair-and-makeup`}><div onClick={clickCheck} className='w-fit h-fit flex smNavItem opacity-0 flex-col group relative COLOR_TEXT_RED  select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out bg-[white]'></div> Hair & Makeup</div></Link>
         {/* <Link href={`/itinerary`}><div onClick={clickCheck} className='w-fit h-fit smNavItem opacity-0 flex flex-col group relative COLOR_TEXT_RED select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out bg-[white]'></div> Services</div></Link> */}
         <Link href={`/explore`}><div onClick={clickCheck} className='w-fit h-fit smNavItem opacity-0 flex flex-col group relative  COLOR_TEXT_RED select-none cursor-pointer'> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out bg-[white]'></div>Explore Udaipur</div></Link>
         <Link href={`/exploreIndia`} ><div onClick={clickCheck} className={`w-fit h-fit  flex flex-col group relative  COLOR_TEXT_RED select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out '></div>Explore India</div></Link>
@@ -167,7 +169,7 @@ const NavBar = () => {
         {/* BTN */}
         <Link target="_blank" rel="noopener noreferrer" href={`https://sonalandkush.rsvpify.com`}>
           <div className='w-fit h-[46px] lg:hidden select-none cursor-pointer flex flex-col justify-center items-center px-[17px] py-[6px] text-[16px] mt-20 text-[white] COLOR_BG_RED'>
-            RSVP HERE
+            CONFIRM ATTENDANCE
 
           </div>
         </Link>

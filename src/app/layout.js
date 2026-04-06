@@ -4,6 +4,7 @@ import LenisProvider from "@/components/common/LenisProvider";
 import Footer from "@/components/common/Footer";
 import NavBar from "@/components/common/NavBar";
 import { Const } from "@/components/utils/Constants";
+import PasswordLoader from "@/components/common/PasswordLoader";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -93,7 +94,8 @@ export default function RootLayout({ children }) {
       >
         <LenisProvider>
           <NavBar />
-  
+
+          <PasswordLoader />
 
           {children}
     
