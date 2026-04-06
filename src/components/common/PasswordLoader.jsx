@@ -99,7 +99,7 @@ const PasswordLoader = () => {
             value={inputPassword}
             onChange={(e) => setInputPassword(e.target.value)}
             type="password"
-            placeholder="Enter password"
+            placeholder="Enter Password"
             className="border px-3 py-2 rounded w-full"
           />
 
