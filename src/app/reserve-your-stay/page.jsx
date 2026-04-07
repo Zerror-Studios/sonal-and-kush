@@ -55,7 +55,7 @@ const bookingSchema = z
             .max(20, "Maximum 20 rooms"),
         email: z
             .string()
-            .min(1, "Email is required")
+            // .min(1, "Email is required")
             .email("Please enter a valid email"),
         phone: z
             .string()
@@ -117,7 +117,7 @@ function DateField({ label, value, min, max, onChange, error }) {
 /* ─── Main Component ──────────────────────────────────────────── */
 export default function ReserveYourStay() {
     const [isProcessing, setIsProcessing] = useState(false);
-    const [paymentSuccess, setPaymentSuccess] = useState(false);
+    const [paymentSuccess, setPaymentSuccess] = useState(true);
 
     const {
         register,

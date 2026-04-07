@@ -33,7 +33,7 @@ Comfortable footwear is recommended due to outdoor venues.`,
     id: 4,
     question: "Are the events indoors or outdoors?",
     answer:
-      "The celebrations are planned across both indoor and outdoor spaces.",
+      "All events except for Pool Party and After Party are outside on the grass.",
   },
   {
     id: 5,
@@ -286,13 +286,13 @@ export default function FAQ() {
               <div className="w-0 h-px bg-[#551301]  group-hover:w-full absolute bottom-[-1] left-0 transition-all duration-200"></div>
               </div>
             </a>
-            <p className="px-2 max-sm:hidden">|</p>
+            {/* <p className="px-2 max-sm:hidden">|</p>
             <a href="tel:+919310069102">
               <div className=" relative group flex w-fit flex-col">
               <p className="Font_YV max-sm:mt-2">+91 93100 69102</p>
               <div className="w-0 h-px bg-[#551301]  group-hover:w-full absolute bottom-[-1] left-0 transition-all duration-200"></div>
               </div>
-            </a>
+            </a> */}
           </div>
         </h2>
 

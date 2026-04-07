@@ -110,7 +110,7 @@ const TravelInfo = () => {
         </p>
        
 
-       <Link href={` https://sonalandkush.rsvpify.com`} ><button className="w-fit h-fit group  py-2.5 px-5 COLOR_BG_CREAM mt-5 transition-all duration-200 ease-linear Font_YV hover:rounded-[8px] hover:scale-[0.98] select-none cursor-pointer">
+       <Link href={` https://sonalandkush.rsvpify.com`} target="_blank" ><button className="w-fit h-fit group  py-2.5 px-5 COLOR_BG_CREAM mt-5 transition-all duration-200 ease-linear Font_YV hover:rounded-[8px] hover:scale-[0.98] select-none cursor-pointer">
           <span className="w-fit h-fit flex flex-col">
            Reserve Your Stay
            <div className="h-[1px] COLOR_BG_RED w-[0px] transition-all duration-200 ease-linear group-hover:w-full ">

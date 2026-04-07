@@ -2,8 +2,10 @@
 import React, { useEffect, useState } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import { RiEyeLine, RiEyeOffLine } from "react-icons/ri";
 
 const PasswordLoader = () => {
+  const [showPassword, setShowPassword] = useState(false);
   const WebsitePassword = "Sonal";
   const [toast, setToast] = useState({
     show: false,
@@ -78,9 +80,8 @@ const PasswordLoader = () => {
 
   return (
     <div
-      className={`w-full h-screen flex items-center justify-center transition-all duration-300 ${
-        showPasswordLoader ? "opacity-100" : "opacity-0 pointer-events-none"
-      } fixed top-0 left-0 z-[9999] COLOR_BG_RED`}
+      className={`w-full h-screen flex items-center justify-center transition-all duration-300 ${showPasswordLoader ? "opacity-100" : "opacity-0 pointer-events-none"
+        } fixed top-0 left-0 z-[9999] COLOR_BG_RED`}
     >
       <div className="fixed top-5 right-5 z-[10000]">
         {toast.show && (
@@ -91,25 +92,59 @@ const PasswordLoader = () => {
           </div>
         )}
       </div>
-      <div className="COLOR_BG_CREAM p-6 rounded-xl shadow-lg text-center passDiv opacity-0">
-        <h2 className=" mb-8 Font_Q COLOR_TEXT_RED ">Enter Password</h2>
+      <div className="passDiv opacity-0 w-fit max-sm:w-[90vw] COLOR_BG_CREAM  shadow-xl p-6 max-sm:p-4 text-center">
 
-        <form onSubmit={SubmitPassword} className="space-y-5">
-          <input
-            value={inputPassword}
-            onChange={(e) => setInputPassword(e.target.value)}
-            type="password"
-            placeholder="Enter Password"
-            className="border px-3 py-2 rounded w-full"
-          />
+        {/* Top Text */}
+        <p className="Font_YV  tracking-wide  mb-5 max-sm:mb-2">
+          A wedding is a celebration of love
+        </p>
+        <h2 className="Font_Q uppercase  COLOR_TEXT_RED mb-8 max-sm:mb-4">
+          Sonal & Kush
+        </h2>
+
+        {/* Logo */}
+        <img
+          className="w-[25vw] max-sm:w-full mx-auto "
+          src="/imgs/logo/og.png"
+          alt="logo"
+        />
+
+        {/* Heading */}
+        <p className="my-4 Font_YV">
+          Please enter the password shared with you
+        </p>
+
+        {/* Form */}
+        <form onSubmit={SubmitPassword} className="space-y-4">
+
+          <div className="relative w-full">
+            <input
+              value={inputPassword}
+              onChange={(e) => setInputPassword(e.target.value)}
+              type={showPassword ? "text" : "password"}
+              placeholder="Enter your access code"
+              className="w-full px-2 py-1 border-b font-semibold tracking-wider outline-none transition-all Font_YV pr-8"
+            />
+
+            <button
+              type="button"
+              onClick={() => setShowPassword(!showPassword)}
+              className="absolute cursor-pointer right-0 top-1/2 -translate-y-1/2 text-gray-500 hover:text-black transition"
+            >
+              {!showPassword ? <RiEyeOffLine size={18} /> : <RiEyeLine size={18} />}
+            </button>
+          </div>
 
           <button
             type="submit"
-            className="COLOR_BG_RED text-white px-4 py-2 rounded w-full cursor-pointer"
+            className="w-full py-3 cursor-pointer uppercase  COLOR_BG_RED text-white Font_YV tracking-wide hover:opacity-90 transition-all duration-300 "
           >
-            Submit
+            Unlock Invitation
           </button>
+
         </form>
+
+
       </div>
     </div>
   );

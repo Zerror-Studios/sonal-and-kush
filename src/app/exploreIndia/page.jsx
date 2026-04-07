@@ -86,9 +86,14 @@ const exploreIndia = () => {
               <span className=" w-full max-w-[460px] flex flex-col justify-center items-center text-center  Font_YV COLOR_TEXT_RED">
                 If you’d like to plan a customized trip before or after the wedding, please contact our trusted travel partners. (Breakaway Travel)
                 {/* <span className="mt-2"></span> */}
-                <span className="mt-2 font-semibold group">Shilpa Sharma - <a href="tel:+91 93100 69102"><span className="select-none cursor-pointer relative">+91 93100 69102 
-                  <div className=" absolute bottom-0 left-0 h-[1px] COLOR_BG_RED transition-all duration-150 ease-out w-0 group-hover:w-full"></div>
-                  </span></a></span>
+                <span className="mt-2 font-semibold ">Bindu -
+                  <a target="_blank" href="https://wa.me/+919310007855" className="select-none group cursor-pointer relative"> +91 93100 07855
+                    <div className=" absolute bottom-0 left-0 h-[1px] COLOR_BG_RED transition-all duration-150 ease-out w-0 group-hover:w-full"></div>
+                  </a> &nbsp; |  &nbsp;
+                  <a target="_blank" href="mailto:bindu@break-away.in" className="select-none group cursor-pointer relative">bindu@break-away.in
+                    <div className=" absolute bottom-0 left-0 h-[1px] COLOR_BG_RED transition-all duration-150 ease-out w-0 group-hover:w-full"></div>
+                  </a>
+                </span>
               </span>
             </div>
           </div>
@@ -857,9 +862,14 @@ const exploreIndia = () => {
             <span className=" w-full max-w-[460px] flex flex-col justify-center items-center text-center  Font_YV COLOR_TEXT_RED">
               If you’d like to plan a customized trip before or after the wedding, please contact our trusted travel partners. (Breakaway Travel)
               {/* <span className="mt-2"></span> */}
-              <span className="mt-2  font-semibold group">Shilpa Sharma - <a href="tel:+91 93100 69102"><span className="select-none cursor-pointer relative">+91 93100 69102
-                <div className=" absolute bottom-0 left-0 h-[1px] COLOR_BG_RED transition-all duration-150 ease-out w-0 group-hover:w-full"></div>
-                </span></a></span>
+              <span className="mt-2 font-semibold ">Bindu -
+                <a target="_blank" href="https://wa.me/+919310007855" className="select-none group cursor-pointer relative"> +91 93100 07855
+                  <div className=" absolute bottom-0 left-0 h-[1px] COLOR_BG_RED transition-all duration-150 ease-out w-0 group-hover:w-full"></div>
+                </a> &nbsp; |  &nbsp;
+                <a target="_blank" href="mailto:bindu@break-away.in" className="select-none group cursor-pointer relative">bindu@break-away.in
+                  <div className=" absolute bottom-0 left-0 h-[1px] COLOR_BG_RED transition-all duration-150 ease-out w-0 group-hover:w-full"></div>
+                </a>
+              </span>
             </span>
           </div>
 

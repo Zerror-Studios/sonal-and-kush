@@ -35,13 +35,13 @@ const Footer = () => {
                 <div className="h-[1px] w-[0px] COLOR_BG_RED transition-all duration-150 ease-in-out group-hover:w-full select-none  ">
                 </div>
               </span></a>
-
+{/* 
               <span className="max-md:hidden">|</span>
 
               <a href="tel:+919310069102"><span className=" relative flex flex-col w-fit  group  cursor-pointer select-none max-md:mx-auto font-semibold">  +91 93100 69102
                 <div className="h-[1px] w-[0px] COLOR_BG_RED transition-all duration-150 ease-in-out group-hover:w-full select-none  ">
                 </div>
-              </span></a>
+              </span></a> */}
             </span>
 
           </div>

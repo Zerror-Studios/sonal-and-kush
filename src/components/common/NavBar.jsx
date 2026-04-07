@@ -110,13 +110,13 @@ const NavBar = () => {
   }
 
   return (
-    <div ref={navRef} className='w-full h-[46px] mt-10 flex justify-between fixed top-0 left-0   items-center z-100 px-20'>
+    <nav ref={navRef} className='w-full h-[46px] mt-10 flex justify-between fixed top-0 left-0   items-center z-100 px-20'>
       {/* Left */}
-      <div className='w-1/3 h-full RVSPBTN items-center max-lg:hidden flex justify-between uppercase text-[12px] COLOR_TEXT_RED '>
+      <div className=' gap-7  h-full RVSPBTN items-center max-lg:hidden flex  uppercase text-[14px] COLOR_TEXT_RED '>
         <Link href={`/`} ><div className={`w-fit ${pathname === '/' && (' border-b border-[#551301]')} h-fit flex flex-col group relative COLOR_TEXT_RED  select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div> The wedding</div></Link>
         <Link href={`/wedding`} ><div className={`w-fit h-fit ${pathname === '/wedding' && (' border-b border-[#551301]')}  flex flex-col group COLOR_TEXT_RED relative  select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div> Itinerary</div></Link>
         <Link href={`/venue`} ><div className={`w-fit h-fit ${pathname === '/venue' && (' border-b border-[#551301]')}  flex flex-col group relative COLOR_TEXT_RED  select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div>Hotel & Reservations</div></Link>
-        <Link href={`/hair-and-makeup`} ><div className={`w-fit h-fit ${pathname === '/venue' && (' border-b border-[#551301]')}  flex flex-col group relative COLOR_TEXT_RED  select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div>Hair & Makeup</div></Link>
+        <Link href={`/hair-and-makeup`} ><div className={`w-fit h-fit ${pathname === '/hair-and-makeup' && (' border-b border-[#551301]')}  flex flex-col group relative COLOR_TEXT_RED  select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div>Hair & Makeup</div></Link>
       </div>
 
       {/* Logo */}
@@ -125,7 +125,7 @@ const NavBar = () => {
       </div>
 
       {/* Right */}
-      <div className='w-2/5  h-full RVSPBTN items-center max-lg:hidden flex justify-between uppercase text-[12px]   COLOR_TEXT_RED'>
+      <div className='  h-full RVSPBTN items-center max-lg:hidden flex gap-7 uppercase text-[14px]   COLOR_TEXT_RED'>
 
 
         <Link href={`/faq`} ><div className={`w-fit h-fit ${pathname === '/faq' && (' border-b border-[#551301]')}  flex flex-col group relative  COLOR_TEXT_RED select-none cursor-pointer`}> <div className=' absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full duration-200 ease-out COLOR_BG_RED'></div>FAQ</div></Link>
@@ -174,7 +174,7 @@ const NavBar = () => {
           </div>
         </Link>
       </div>
-    </div>
+    </nav>
   )
 }
 

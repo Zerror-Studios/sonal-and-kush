@@ -21,7 +21,7 @@ export async function POST(request) {
 
     // Validate booking details
     const { checkIn, checkOut, rooms, nights, name, email, phone } = bookingDetails || {};
-    if (!checkIn || !checkOut || !rooms || !nights || !name || !email || !phone) {
+    if (!checkIn || !checkOut || !rooms || !nights || !name || !phone) {
       return NextResponse.json(
         { success: false, error: "Missing booking details" },
         { status: 400 }

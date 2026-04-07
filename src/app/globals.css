@@ -21,6 +21,11 @@
 }
 
 
+  ::selection{
+    background-color: #551301;
+    color: #EFDFCB;
+  }
+
 body {
   position: relative;
   font-family: Helvetica;

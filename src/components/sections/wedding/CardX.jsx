@@ -248,6 +248,10 @@ const CardX = () => {
               Sun, splashes, and effortless fun. A relaxed poolside celebration to soak in the final moments of the wedding festivities together.
             </p>
 
+            <p className=" Font_YV mt-2 leading-relaxed max-w-md text-center mx-auto">
+               (We kindly request guests not to wear white)
+            </p>
+
 
 
           </div>
@@ -662,6 +666,8 @@ const CardX = () => {
                 Sun, splashes, and effortless fun. A relaxed poolside celebration
                 to soak in the final moments of the wedding festivities together.
               </p>
+              <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
+                 (We kindly request guests not to wear white, red, or gold)</p>
             </div>
 
             {/* 2 Detail Cocktail Hour */}
