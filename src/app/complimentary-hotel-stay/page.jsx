@@ -134,8 +134,8 @@ const ComplimentaryHotelStay = () => {
          With our warmest regards,
 
         </p>
-        <h5
-         className="Font_Q COLOR_TEXT_CREAM text-[40px] text-center leading-[45px] uppercase"
+        <div
+         className="Font_Q COLOR_TEXT_CREAM text-[30px] text-center leading-[30px] uppercase"
           style={{
             // color: "#F5EDD8",
             // fontSize: "clamp(20px, 3.5vw, 28px)",
@@ -147,7 +147,7 @@ const ComplimentaryHotelStay = () => {
           }}
         >
           Jauhars and Patel Family
-        </h5>
+        </div>
       </div>
 
       {/* Divider */}

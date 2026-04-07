@@ -219,7 +219,7 @@ const BookWithPlanning = () => {
             With warm regards,
           </p>
           <h5
-            className="Font_Q COLOR_TEXT_CREAM text-[40px] text-center leading-[45px] uppercase"
+            className="Font_Q COLOR_TEXT_CREAM text-[30px] text-center leading-[30px] uppercase"
             style={{
               // color: "#F5EDD8",
               // fontSize: "clamp(20px, 3.5vw, 28px)",

@@ -119,13 +119,13 @@ const page = () => {
               >
                 <p
                   className="Font_Q uppercase tracking-widest text-center COLOR_TEXT_RED"
-                  style={{ fontSize: "clamp(1.5rem, 1.8vw, 2.2rem)" }}
+                  style={{ fontSize: "clamp(1.5rem, 1.9vw, 2.2rem)" }}
                 >
                   {service.label}
                 </p>
                 <p
                   className="Font_YV COLOR_TEXT_RED mt-5 tracking-wider text-center"
-                  style={{ fontSize: "clamp(1.1rem, 1.3rem, 1.5rem)" }}
+                  style={{ fontSize: "clamp(1.1rem, 1.4rem, 1.5rem)" }}
                 >
                   ₹ {service.price.toLocaleString("en-IN")}
                 </p>
