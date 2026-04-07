@@ -118,7 +118,7 @@ function DateField({ label, value, min, max, onChange, error }) {
 /* ─── Main Component ──────────────────────────────────────────── */
 export default function ReserveYourStay() {
     const [isProcessing, setIsProcessing] = useState(false);
-    const [paymentSuccess, setPaymentSuccess] = useState(true);
+    const [paymentSuccess, setPaymentSuccess] = useState(false);
 
     const {
         register,
