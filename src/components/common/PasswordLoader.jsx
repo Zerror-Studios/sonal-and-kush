@@ -109,13 +109,8 @@ const PasswordLoader = () => {
           alt="logo"
         />
 
-        {/* Heading */}
-        <p className="my-4 Font_YV">
-          Please enter the password shared with you
-        </p>
-
         {/* Form */}
-        <form onSubmit={SubmitPassword} className="space-y-4">
+        <form onSubmit={SubmitPassword} className="space-y-4 mt-4">
 
           <div className="relative w-full">
             <input

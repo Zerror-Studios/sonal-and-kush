@@ -179,12 +179,12 @@ const ComplimentaryHotelStay = () => {
         <div style={{ display: "flex", gap: "32px", alignItems: "center" }}>
           <div style={{ display: "flex", flexDirection: "column", gap: "4px", alignItems: "center" }}>
             <span className="COLOR_TEXT_CREAM Font_YV" style={{ fontSize: "16px", letterSpacing: "0.18em", textTransform: "uppercase",  opacity: 0.8,  }}>Email</span>
-            <a href="mailto:sonalskushie@gmail.com"><span className="COLOR_TEXT_CREAM Font_YV " >sonalskushie@gmail.com</span></a>
+            <a href="mailto:sonalskushie@gmail.com"><span className="COLOR_TEXT_CREAM Font_YV hover:underline " >sonalskushie@gmail.com</span></a>
           </div>
           <div style={{ width: "0.5px", height: "28px", background: "rgba(196,155,85,0.25)" }} />
           <div style={{ display: "flex", flexDirection: "column", gap: "4px", alignItems: "center" }}>
             <span className="COLOR_TEXT_CREAM Font_YV" style={{ fontSize: "16px", letterSpacing: "0.18em", textTransform: "uppercase",  opacity: 0.8,  }}>WhatsApp</span>
-            <a href="tel:+919820216173"><span className="COLOR_TEXT_CREAM Font_YV " >+91 9820216173</span></a>
+            <a href="https://wa.me/+919358800614"><span className="COLOR_TEXT_CREAM Font_YV hover:underline " >+91 93588 00614</span></a>
           </div>
         </div>
       </div>

@@ -31,7 +31,7 @@ const Footer = () => {
 
               <span className="max-md:hidden">|</span>
 
-              <a href="tel:+919358800614"><span className=" relative flex flex-col w-fit  group  cursor-pointer select-none max-md:mx-auto font-semibold">  +91 93588 00614
+              <a href="https://wa.me/+919358800614"><span className=" relative flex flex-col w-fit  group  cursor-pointer select-none max-md:mx-auto font-semibold">  +91 93588 00614
                 <div className="h-[1px] w-[0px] COLOR_BG_RED transition-all duration-150 ease-in-out group-hover:w-full select-none  ">
                 </div>
               </span></a>
@@ -50,7 +50,7 @@ const Footer = () => {
 
           <div className="w-fit ml-auto  flex  flex-col COLOR_TEXT_RED max-md:text-[14px] max-md:mx-auto max-md:text-center max-md:mt-5 my-auto ">
 
-            <span className=" Font_YV flex md:justify-end max-md:mx-auto font-semibold ">Payments are securely processed by EDD United Pvt. Ltd.</span>
+            <span className=" Font_YV flex md:justify-end max-md:mx-auto font-semibold whitespace-nowrap ">Payments are securely processed by EDD United Pvt. Ltd.</span>
 
             {/* <span className=" Font_YV flex gap-2 md:ml-auto max-md:mx-auto">
               <a href="https://www.bombaylettering.com/" target="blank"><span className=" relative flex flex-col w-fit  group  cursor-pointer select-none font-semibold ">  The Bombay Lettering Company

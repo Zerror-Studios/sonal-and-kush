@@ -348,9 +348,9 @@ export default function ReserveYourStay() {
 
                         {/* Contact info */}
                         <div className="mt-6 space-y-2.5">
-                            <ContactRow icon="email" text="sonalskushie@gmail.com" />
-                            <ContactRow icon="phone" text="+91 93588 00614" />
-                            <ContactRow icon="phone" text="+91 93100 69102" />
+                            <ContactRow icon="email" text="sonalskushie@gmail.com" link="mailto:sonalskushie@gmail.com" />
+                            <ContactRow icon="phone" text="+91 93588 00614" link="https://wa.me/+919358800614" />
+                            <ContactRow icon="phone" text="+91 93100 69102" link="https://wa.me/+919310069102"/>
                         </div>
 
                         {/* Legal */}
@@ -605,7 +605,7 @@ function MetaRow({ label, value }) {
     );
 }
 
-function ContactRow({ icon, text }) {
+function ContactRow({link, icon, text }) {
     return (
         <div className="flex items-center gap-3 Font_YV">
             <div className="w-7 h-7 rounded-full border border-[#e2d9c8] bg-[#faf7f2] COLOR_TEXT_CREAM flex items-center justify-center shrink-0">
@@ -620,7 +620,7 @@ function ContactRow({ icon, text }) {
                     </svg>
                 )}
             </div>
-            <span className="text-xs sm:text-sm tracking-wide COLOR_TEXT_CREAM">{text}</span>
+            <a href={link} className="text-xs hover:underline cursor-pointer sm:text-sm tracking-wide COLOR_TEXT_CREAM">{text}</a>
         </div>
     );
 }

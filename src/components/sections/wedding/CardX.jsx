@@ -127,9 +127,9 @@ const CardX = () => {
               A night of music, dance, and pure celebration! Join us as family and friends come together to perform, celebrate our love story, and dance the night away.
             </p>
 
-            <span className=" px-[20px] Font_YV mt-2 text-[16px] leading-[16px] max-w-md text-center mx-auto">
-              (Join us in celebrating in joyful colors. We kindly request that guests do not wear white, red, or gold.)
-            </span>
+            <p className=" px-[20px] Font_YV mt-2  max-w-md text-center mx-auto">
+              (Join us in celebrating in joyful colors. We kindly request guests not to wear white, red and gold.)
+            </p>
 
           </div>
 
@@ -169,7 +169,7 @@ const CardX = () => {
               A celebration dipped in sunshine and laughter. Vibrant traditions, heartfelt blessings, and playful moments mark the joyful beginning of our wedding festivities.</p>
 
             <p className=" px-[20px] Font_YV mt-2  max-w-md text-center mx-auto">
-              (Join us for our vibrant, color-themed celebration — please wear yellow!)
+              (Join us for our vibrant, color-themed celebration . We kindly request guests to wear yellow)
             </p>
 
 
@@ -198,7 +198,7 @@ const CardX = () => {
               An electrifying procession of music, rhythm, and celebration. Dancing through the celebrations in high-spirited joy as the groom makes his grand arrival.</p>
 
             <p className=" px-[20px] Font_YV mt-2  max-w-md text-center mx-auto">
-              (Join us in celebrating in beautiful pastel colors. We kindly request that guests do not wear white, red, or gold.)
+              (Join us in celebrating in beautiful pastel colors. We kindly request guests not to wear white, red and gold.)
             </p>
 
 
@@ -249,7 +249,7 @@ const CardX = () => {
             </p>
 
             <p className=" Font_YV mt-2 leading-relaxed max-w-md text-center mx-auto">
-               (We kindly request guests not to wear white)
+               (We can’t wait to celebrate with you. We kindly request guests not to wear white)
             </p>
 
 
@@ -279,7 +279,7 @@ const CardX = () => {
             </p>
 
             <p className=" px-[20px] Font_YV mt-2  max-w-md text-center mx-auto">
-              (Join us as we celebrate our reception together. We kindly request that guests do not wear white, red, or gold.)
+              (Join us as we celebrate our reception together. We kindly request guests not to wear white, red and gold.)
             </p>
 
 
@@ -306,9 +306,9 @@ const CardX = () => {
               Where the formalities fade and the real fun begins. An electric night of music, signature cocktails, and uninhibited celebration as we dance, laugh, and make memories long past midnight.
             </p>
 
-            <p className=" px-[20px] Font_YV mt-2  max-w-md text-center mx-auto">
+            {/* <p className=" px-[20px] Font_YV mt-2  max-w-md text-center mx-auto">
               (We can’t wait to celebrate with you! We kindly request that guests do not wear white or gold.)
-            </p>
+            </p> */}
 
           </div>
 
@@ -370,7 +370,7 @@ const CardX = () => {
                 and dance the night away.
               </p>
               <p className=" px-[20px] Font_YV mt-2  max-w-md text-center mx-auto">
-                (Join us in celebrating in joyful colors. We kindly request that guests do not wear white, red, or gold.)
+                (Join us in celebrating in joyful colors. We kindly request guests not to wear white, red and gold.)
               </p>
               {/* <span className="Text_YV font-semibold py-4 text-[14px] capitalize">
               ( no white red & gold )
@@ -477,7 +477,7 @@ const CardX = () => {
               </p>
 
               <p className=" px-[20px] Font_YV mt-2  max-w-md text-center mx-auto">
-                (Join us for our vibrant, color-themed celebration — please wear yellow!)
+                (Join us for our vibrant, color-themed celebration . We kindly request guests to wear yellow)
               </p>
 
 
@@ -533,7 +533,7 @@ const CardX = () => {
               </p>
 
               <p className=" px-[20px] Font_YV mt-2  max-w-md text-center mx-auto">
-                (Join us in celebrating in beautiful pastel colors. We kindly request that guests do not wear white, red, or gold.)
+                (Join us in celebrating in beautiful pastel colors. We kindly request guests not to wear white, red and gold.)
               </p>
             </div>
 
@@ -607,7 +607,7 @@ const CardX = () => {
               wedding ceremony. The couple walks seven circles around a holy
               fire, each round symbolising a promise of love, partnership,
               strength, prosperity, and lifelong commitment. With these seven
-              steps, their bond is sealed — not just for this lifetime, but for
+              steps, their bond is sealed . not just for this lifetime, but for
               all that follow.
             </p>
           </div> */}
@@ -666,8 +666,8 @@ const CardX = () => {
                 Sun, splashes, and effortless fun. A relaxed poolside celebration
                 to soak in the final moments of the wedding festivities together.
               </p>
-              <p className=" Font_YV mt-6 leading-relaxed max-w-md text-center mx-auto">
-                 (We kindly request guests not to wear white, red, or gold)</p>
+              <p className=" Font_YV mt-2 leading-relaxed max-w-md text-center mx-auto">
+                 (We can’t wait to celebrate with you. We kindly request guests not to wear white.)</p>
             </div>
 
             {/* 2 Detail Cocktail Hour */}
@@ -718,7 +718,7 @@ const CardX = () => {
               </p>
 
               <p className=" px-[20px] Font_YV mt-2  max-w-md text-center mx-auto">
-                (Join us as we celebrate our reception together. We kindly request that guests do not wear white, red, or gold.)
+                (Join us as we celebrate our reception together. We kindly request guests not to wear white, red and gold.)
               </p>
 
 
@@ -753,7 +753,7 @@ const CardX = () => {
               </p>
 
               <p className=" px-[20px] Font_YV mt-2  max-w-md text-center mx-auto pb-[20vh]">
-                (We can’t wait to celebrate with you! We kindly request that guests do not wear white or gold.)
+                {/* (We can’t wait to celebrate with you! We kindly request that guests do not wear white or gold.) */}
               </p>
 
             </div>
