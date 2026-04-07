@@ -213,7 +213,7 @@ const BookWithPlanning = () => {
             gap: "6px",
           }}
         >
-          <p className="COLOR_TEXT_CREAM Font_YV font-bold"
+          <p className="COLOR_TEXT_CREAM Font_YV "
           // style={{  fontSize: "12px", letterSpacing: "0.18em", textTransform: "uppercase",  }}
           >
             With warm regards,
