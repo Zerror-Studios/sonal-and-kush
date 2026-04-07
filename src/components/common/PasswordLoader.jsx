@@ -110,7 +110,7 @@ const PasswordLoader = () => {
         />
 
         {/* Form */}
-        <form onSubmit={SubmitPassword} className="space-y-4 mt-4">
+        <form onSubmit={SubmitPassword} className="space-y-4 mt-8">
 
           <div className="relative w-full">
             <input
