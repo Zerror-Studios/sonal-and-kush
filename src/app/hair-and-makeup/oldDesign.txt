@@ -278,3 +278,50 @@ const HairMakeupPage = () => {
 };
 
 export default HairMakeupPage;
+
+
+
+========================================================= BY SUNNY 
+<div className="w-full grid gap-2 grid-cols-4 max-sm:grid-cols-2 px-[40px] max-sm:px-[20px] my-10">
+          {services.map((service, i) => {
+            // IMAGE BLOCK
+            if (service.img) {
+              return (
+                <div
+                  key={i}
+                  className={`w-full  aspect-square`}
+                >
+                  <img
+                    src={service.img}
+                    alt=""
+                    className="w-full h-full  object-cover object-top"
+                  />
+                </div>
+              );
+            }
+
+            // SERVICE CARD
+            return (
+              <div
+                key={i}
+                className={`w-full aspect-square p-6 max-sm:p-2 flex flex-col justify-between  ${service.highlight ? "bg-[#551301] text-[#EFDFCB]" : "border border-[#551301] text-[#551301]"
+                  }`}
+              >
+                <div>
+                  <p className="text-sm Font_Q">{service.id}</p>
+                  <p className=" text-4xl! max-sm:text-xl! leading-tight Font_Q  mt-2">
+                    {service.label}
+                  </p>
+                </div>
+                  
+                <p className="text-4xl! max-sm:text-xl! tracking-widest Font_Q  mt-4">
+                  ₹{service.price}
+
+                  
+                </p>
+              </div>
+            );
+          })}
+        </div>
+
+        ---------------------------------------------------------------------------
