@@ -56,7 +56,8 @@ const bookingSchema = z
         email: z
             .string()
             // .min(1, "Email is required")
-            .email("Please enter a valid email"),
+            .email("Please enter a valid email")
+            .optional(),
         phone: z
             .string()
             .min(10, "Phone must be 10 digits")
@@ -500,9 +501,9 @@ export default function ReserveYourStay() {
                                         {...register("email")}
                                         className="w-full border border-[#d8cdb8] bg-white px-3 py-2 rounded-sm text-sm COLOR_TEXT_RED placeholder-[#c0b49a] outline-none focus:border-[#b5924c] transition-colors"
                                     />
-                                    {errors.email && (
+                                    {/* {errors.email && (
                                         <p className="text-[10px] text-red-500 mt-0.5">{errors.email.message}</p>
-                                    )}
+                                    )} */}
                                 </div>
                             </div>
 
