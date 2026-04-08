@@ -267,7 +267,7 @@ const BookWithPlanning = () => {
             <div style={{ width: "0.5px", height: "28px", background: "rgba(196,155,85,0.25)" }} />
             <div style={{ display: "flex", flexDirection: "column", gap: "4px", alignItems: "center" }}>
               <span className="COLOR_TEXT_CREAM Font_YV" style={{ fontSize: "16px", letterSpacing: "0.18em", textTransform: "uppercase", opacity: 0.8, }}>WhatsApp</span>
-              <a href="https://wa.me/+919358800614"><span className="COLOR_TEXT_CREAM Font_YV  hover:underline" >+91 9193588 00614</span></a>
+              <a href="https://wa.me/+919358800614"><span className="COLOR_TEXT_CREAM Font_YV  hover:underline" >+91 93588 00614</span></a>
             </div>
           </div>
         </div>
