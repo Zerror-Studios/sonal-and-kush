@@ -190,7 +190,7 @@ const BookWithPlanning = () => {
           "We are so looking forward to celebrating together and would be delighted to have you stay with us at Raffles Udaipur during the wedding festivities.",
           "The hotel has been reserved exclusively for our celebrations, and our planning team will be happy to assist you in booking your room, ensuring a seamless and comfortable stay.",
           "We recommend confirming your accommodation at your earliest convenience so we can best accommodate your preferences. Planning team will also reach out to you.",
-          "To make your reservation or for any assistance, please connect with our team:[ +91 9820216173 & sonalskushie@gmail.com]",
+          "To make your reservation or for any assistance, please connect with our team:[ +91 9358800614 & sonalskushie@gmail.com]",
           "We can't wait to welcome you for a few unforgettable days filled with color, celebration, and joy.",
         ].map((text, i) => (
           <p
