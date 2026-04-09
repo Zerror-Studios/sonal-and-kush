@@ -212,10 +212,10 @@ const DATE_MAX = "2026-09-24"; // latest check-out
 const PRICE_PER_ROOM_PER_NIGHT = 100; //62100
 
 const rateRows = [
-  { label: "Room Rate:", value: "₹49,950 / night" },
-  { label: "Taxes:", value: "₹8,991" },
-  { label: "Subtotal:", value: "₹58,941" },
-  { label: "Service Fee (3.5%):", value: "₹2063" },
+  { label: "Room Rate:", value: "₹39,500 / night" },
+  { label: "Taxes:", value: "₹7,110" },
+  { label: "Subtotal:", value: "₹46,610" },
+  { label: "Service Fee (3.5%):", value: "₹1,631" },
 ];
 
 /* ─── Helpers ─────────────────────────────────────────────────── */
@@ -536,7 +536,7 @@ export default function ReserveYourStay() {
                   Rate Bifurcation
                 </span>
                 <span className="text-base sm:text-lg COLOR_TEXT_CREAM font-semibold tabular-nums Font_YV">
-                  ₹61,004
+                  ₹48,241 
                 </span>
               </div>
               <div className="px-5 sm:px-6 py-4 space-y-3">
@@ -565,7 +565,7 @@ export default function ReserveYourStay() {
                     fontWeight: 600,
                   }}
                 >
-                  ₹61,004
+                  ₹48,241
                 </span>
               </div>
             </div>
