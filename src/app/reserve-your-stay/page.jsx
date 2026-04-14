@@ -761,7 +761,7 @@ export default function ReserveYourStay() {
               </div>
 
               {/* Phone */}
-              <div className="flex items-start justify-between gap-4">
+              <div className="flex  w-full  items-start justify-between gap-4">
                 <label className="text-xs tracking-widests text-[#7a6a55] uppercase w-36 shrink-0 pt-2">
                   Phone
                 </label>
@@ -787,7 +787,7 @@ export default function ReserveYourStay() {
 
                     <select
                       {...register("countryCode")}
-                      className="px-2 py-2 text-sm text-[#7a6a55] border-r border-[#d8cdb8] bg-[#f9f6f1] outline-none cursor-pointer"
+                      className="px-1 py-2 text-sm max-sm:w-[60px] w-fit text-[#7a6a55] border-r border-[#d8cdb8] bg-[#f9f6f1] outline-none cursor-pointer"
                     >
                       {COUNTRIES.map(([code, name, dial]) => (
                         <option key={code} value={dial} title={name}>
@@ -801,7 +801,7 @@ export default function ReserveYourStay() {
                       placeholder="10-digit number"
                       maxLength={10}
                       {...register("phone")}
-                      className="flex-1 px-3 py-2 text-sm COLOR_TEXT_RED placeholder-[#c0b49a] outline-none bg-transparent"
+                      className="flex-1 px-3 py-2 w-full text-sm COLOR_TEXT_RED placeholder-[#c0b49a] outline-none bg-transparent"
                     />
                   </div>
                   {errors.phone && (
