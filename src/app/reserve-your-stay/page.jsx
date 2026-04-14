@@ -270,8 +270,8 @@ function DateField({ label, value, min, max, onChange, error }) {
   const inputRef = useRef(null);
 
   return (
-    <div className="flex items-start justify-between gap-4">
-      <label className="text-xs tracking-widests text-[#7a6a55] uppercase w-36 shrink-0 pt-2">
+    <div className="flex items-start justify-between gap-4 max-sm:gap-2">
+      <label className="text-xs max-sm:w-[30%] tracking-widests text-[#7a6a55] uppercase w-36 shrink-0 pt-2">
         {label}
       </label>
       <div className="relative flex-1">
@@ -611,7 +611,7 @@ export default function ReserveYourStay() {
 
         {/* Right – Booking Form */}
         <div className="relative w-full max-w-md overflow-hidden">
-          <div className="COLOR_BG_CREAM border border-[#e2d9c8] shadow-[0_8px_48px_rgba(120,90,40,0.10)] rounded-sm px-8 pt-10 pb-8">
+          <div className="COLOR_BG_CREAM border border-[#e2d9c8] shadow-[0_8px_48px_rgba(120,90,40,0.10)] rounded-sm px-8 max-sm:px-[20px] pt-10 pb-8">
             <h1 className="text-2xl COLOR_TEXT_RED tracking-wide mb-1 Font_Q">
               Complete Your Booking
             </h1>
@@ -680,11 +680,11 @@ export default function ReserveYourStay() {
               )}
 
               {/* Number of Rooms */}
-              <div className="flex items-start justify-between gap-4">
-                <label className="text-xs tracking-widest text-[#7a6a55] uppercase w-36 shrink-0 pt-2">
-                  Number of Rooms
+              <div className="flex items-start justify-between gap-4 max-sm:gap-2">
+                <label className="text-xs max-sm:w-[30%] tracking-widest text-[#7a6a55] uppercase w-36 shrink-0 pt-2">
+                  No. of Rooms
                 </label>
-                <div className="flex-1">
+                <div className="flex-1 w-full">
                   <Controller
                     name="rooms"
                     control={control}
@@ -723,8 +723,8 @@ export default function ReserveYourStay() {
               </div>
 
               {/* Full Name */}
-              <div className="flex items-start justify-between gap-4">
-                <label className="text-xs tracking-widest text-[#7a6a55] uppercase w-36 shrink-0 pt-2">
+              <div className="flex items-start justify-between gap-4 max-sm:gap-2">
+                <label className="text-xs max-sm:w-[30%] tracking-widest text-[#7a6a55] uppercase w-36 shrink-0 pt-2">
                   Full Name
                 </label>
                 <div className="flex-1">
@@ -743,8 +743,8 @@ export default function ReserveYourStay() {
               </div>
 
               {/* Email */}
-              <div className="flex items-start justify-between gap-4">
-                <label className="text-xs tracking-widests text-[#7a6a55] uppercase w-36 shrink-0 pt-2">
+              <div className="flex items-start justify-between gap-4 max-sm:gap-2">
+                <label className="text-xs max-sm:w-[30%] tracking-widests text-[#7a6a55] uppercase w-36 shrink-0 pt-2">
                   Email
                 </label>
                 <div className="flex-1">
@@ -761,8 +761,8 @@ export default function ReserveYourStay() {
               </div>
 
               {/* Phone */}
-              <div className="flex  w-full  items-start justify-between gap-4">
-                <label className="text-xs tracking-widests text-[#7a6a55] uppercase w-36 shrink-0 pt-2">
+              <div className="flex  w-full  items-start justify-between gap-4 max-sm:gap-2">
+                <label className="text-xs max-sm:w-[30%] tracking-widests text-[#7a6a55] uppercase w-36 shrink-0 pt-2">
                   Phone
                 </label>
                 <div className="flex-1">
