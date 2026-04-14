@@ -209,7 +209,7 @@ const COUNTRIES = [
 const DATE_MIN = "2026-09-21"; // earliest check-in
 const DATE_MAX = "2026-09-24"; // latest check-out
 
-const PRICE_PER_ROOM_PER_NIGHT = 100; //62100
+const PRICE_PER_ROOM_PER_NIGHT = 48241; //62100
 
 const rateRows = [
   { label: "Room Rate:", value: "₹39,500 / night" },
