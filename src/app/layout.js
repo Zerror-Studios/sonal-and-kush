@@ -95,7 +95,7 @@ export default function RootLayout({ children }) {
         <LenisProvider>
           <NavBar />
 
-          <PasswordLoader />
+          {/* <PasswordLoader /> */}
 
           {children}
     
