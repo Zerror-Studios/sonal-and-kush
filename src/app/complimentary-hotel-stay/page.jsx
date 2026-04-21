@@ -105,7 +105,7 @@ const ComplimentaryHotelStay = () => {
 
         {[
           "It means so much to us that you will be joining our families to celebrate this very special occasion.",
-          "We are delighted to host you at Raffles Udaipur, and your accommodation has been arranged with our compliments. We hope you will feel completely at home and enjoy every moment of your time with us. Your room details will available when you arrive at Raffles.",
+          "We are delighted to host you at Raffles Udaipur, and your accommodation has been arranged with our compliments. We hope you will feel completely at home and enjoy every moment of your time with us. Your room details will be available when you arrive at Raffles.",
           "If there is anything at all that would make your stay more comfortable or enjoyable, please don’t hesitate to let us know (please see the contact numbers and email below). It would truly be our pleasure to assist in any way.",
           "We look forward to welcoming you and celebrating together in what promises to be a joyful and memorable time.",
         ].map((text, i) => (
