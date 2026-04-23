@@ -123,12 +123,12 @@ const page = () => {
                 >
                   {service.label}
                 </p>
-                <p
+                {/* <p
                   className="Font_YV COLOR_TEXT_RED mt-5 tracking-wider text-center"
                   style={{ fontSize: "clamp(1.1rem, 1.4rem, 1.5rem)" }}
                 >
                   ₹ {service.price.toLocaleString("en-IN")}
-                </p>
+                </p> */}
               </div>
             ))}
           </div>

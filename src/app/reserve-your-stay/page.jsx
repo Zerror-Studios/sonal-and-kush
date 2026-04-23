@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import { useForm, Controller } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
+import Link from "next/link";
 
 /* ─── Country Data ────────────────────────────────────────────── */
 const getFlagEmoji = (code) =>
@@ -596,7 +597,10 @@ export default function ReserveYourStay() {
               </p>
               <p className="text-[11px] sm:text-xs Font_YV leading-relaxed COLOR_TEXT_CREAM">
                 You agree to share information entered on this page with Sonal &
-                Kush and Razorpay, adhering to their terms and conditions.
+                Kush and Razorpay, adhering to their 
+                 <Link href="/termsandconditions" className="underline ml-1 hover:COLOR_TEXT_RED transition-colors">
+     Terms And Conditions
+  </Link>
               </p>
             </div>
           </div>
