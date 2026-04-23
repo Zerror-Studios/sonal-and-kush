@@ -13,7 +13,7 @@ const getFlagEmoji = (code) =>
     .replace(/./g, (c) => String.fromCodePoint(127397 + c.charCodeAt(0)));
 
 const COUNTRIES = [
-    ["IN", "India", "+91"],
+  ["IN", "India", "+91"],
   ["AF", "Afghanistan", "+93"],
   ["AL", "Albania", "+355"],
   ["DZ", "Algeria", "+213"],
@@ -537,7 +537,7 @@ export default function ReserveYourStay() {
                   Rate Bifurcation
                 </span>
                 <span className="text-base sm:text-lg COLOR_TEXT_CREAM font-semibold tabular-nums Font_YV">
-                  ₹48,241 
+                  ₹48,241
                 </span>
               </div>
               <div className="px-5 sm:px-6 py-4 space-y-3">
@@ -597,10 +597,13 @@ export default function ReserveYourStay() {
               </p>
               <p className="text-[11px] sm:text-xs Font_YV leading-relaxed COLOR_TEXT_CREAM">
                 You agree to share information entered on this page with Sonal &
-                Kush and Razorpay, adhering to their 
-                 <Link href="/termsandconditions" className="underline ml-1 hover:COLOR_TEXT_RED transition-colors">
-     Terms And Conditions
-  </Link>
+                Kush and Razorpay, adhering to their
+                <Link
+                  href="/termsandconditions"
+                  className="underline ml-1 hover:COLOR_TEXT_RED transition-colors"
+                >
+                  Terms And Conditions
+                </Link>
               </p>
             </div>
           </div>

@@ -340,7 +340,7 @@ export default function FAQ() {
                       )}
 
                       {faq.LINKS && (
-                        <div className="mt-3 flex flex-col gap-2">
+                        <div className="mt-1 flex  gap-1">
                           {faq.LINKS.map((link, index) => (
                             <a
                               key={index}
@@ -349,7 +349,7 @@ export default function FAQ() {
                               rel="noopener noreferrer"
                               className="COLOR_TEXT_RED underline"
                             >
-                              {link.label}
+                              {link.label} ,
                             </a>
                           ))}
                         </div>
