@@ -247,6 +247,10 @@ const CardX = () => {
               to soak in the final moments of the wedding festivities together.
             </p>
 
+             <p className=" Font_YV mt-2 mb-2 leading-relaxed max-w-md text-center mx-auto">
+                <span className=""> Theme :</span> Bali Beach Club
+              </p>
+
             <p className=" Font_YV mt-2 leading-relaxed max-w-md text-center mx-auto">
               (We can’t wait to celebrate with you. We kindly request guests not
               to wear white)
@@ -300,6 +304,9 @@ const CardX = () => {
               night of music, signature cocktails, and uninhibited celebration
               as we dance, laugh, and make memories long past midnight.
             </p>
+             <p className=" Font_YV mt-2 mb-2 leading-relaxed max-w-md text-center mx-auto">
+                <span className=""> Theme :</span> Viva Ibiza
+              </p>
             <p className=" px-[20px] Font_YV mt-2  max-w-md text-center mx-auto">
               (We kindly request guests not to wear white and gold)
             </p>
@@ -666,6 +673,9 @@ const CardX = () => {
                 celebration to soak in the final moments of the wedding
                 festivities together.
               </p>
+               <p className=" Font_YV mt-6 mb-4 leading-relaxed max-w-md text-center mx-auto">
+                <span className=""> Theme :</span> Bali Beach Club
+              </p>
               <p className=" Font_YV mt-2 leading-relaxed max-w-md text-center mx-auto">
                 (We can’t wait to celebrate with you. We kindly request guests
                 not to wear white.)
@@ -743,6 +753,7 @@ const CardX = () => {
                 <span className=" uppercase">
                   <span className="font-semibold"></span> Evening
                 </span>
+                
                 <span className=" uppercase">
                   <span className="font-semibold"></span> Raffles Udaipur
                 </span>
@@ -752,6 +763,10 @@ const CardX = () => {
                 Where the formalities fade and the real fun begins. An electric
                 night of music, signature cocktails, and uninhibited celebration
                 as we dance, laugh, and make memories long past midnight.
+              </p>
+
+               <p className=" Font_YV mt-6 mb-3 leading-relaxed max-w-md text-center mx-auto">
+                <span className=""> Theme :</span> Viva Ibiza
               </p>
 
              <p className=" px-[20px] Font_YV mt-3  max-w-md text-center mx-auto">
