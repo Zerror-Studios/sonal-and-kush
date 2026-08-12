@@ -184,7 +184,7 @@ const CardX = () => {
             {/* <p className="Font_YV font-semibold uppercase ">Day 2</p> */}
 
             <h5 className="Font_Q text-[40px] leading-[45px] max-sm:text-center flex flex-wrap justify-center items-center  my-6 uppercase px-[10%] text-center ">
-              Wedding
+              Wedding Ceremony
             </h5>
 
             <div className=" text-[16px] mt-1 flex flex-col Font_YV gap-1 max-sm:text-center justify-center items-center">
@@ -524,7 +524,7 @@ const CardX = () => {
             {/* 4 Wedding */}
             <div className="w-full max-sm:w-full h-fit py-[10vh] pb-[30vh] max-sm:h-fit max-sm:py-[5vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
               <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
-                Wedding
+                Wedding Ceremony
               </h5>
               <div className=" text-[16px] mt-6 flex flex-col justify-center max-sm:text-center items-center Font_YV gap-1">
                 <span>
