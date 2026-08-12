@@ -112,7 +112,10 @@ const CardX = () => {
                 <span className="font-semibold"></span> 21/09/26
               </span>
               <span>
-                <span className="font-semibold mt-1 "></span> Evening
+                <span className="font-semibold mt-1 "></span> Time: 8:00 PM
+              </span>
+              <span>
+                <span className="font-semibold mt-1 "></span> Venue: Parterre
               </span>
             </div>
 
@@ -155,7 +158,8 @@ const CardX = () => {
             <div className=" text-[16px] mt-1 flex flex-col Font_YV gap-1 max-sm:text-center justify-center items-center">
               <span className=" uppercase flex flex-col">
                 <span className="font-semibold"></span> 22/09/26
-                <span className="font-semibold mt-1"></span> Morning
+                <span className="font-semibold mt-1"></span> Time: 11:30 AM
+                <span className="font-semibold mt-1"></span> Venue: English Garden
               </span>
             </div>
 
@@ -186,7 +190,8 @@ const CardX = () => {
             <div className=" text-[16px] mt-1 flex flex-col Font_YV gap-1 max-sm:text-center justify-center items-center">
               <span className=" uppercase flex flex-col">
                 <span className="font-semibold"></span> 22/09/26
-                <span className="font-semibold mt-1"></span> Evening
+                <span className="font-semibold mt-1"></span> Time: 7:00 PM
+                <span className="font-semibold mt-1"></span> Venue: Veranda
               </span>
             </div>
 
@@ -234,7 +239,8 @@ const CardX = () => {
             <div className=" text-[16px] mt-1 flex flex-col Font_YV gap-1 max-sm:text-center justify-center items-center">
               <span className=" flex flex-col uppercase">
                 <span className="font-semibold"></span> 23/09/26
-                <span className="font-semibold"></span> Morning
+                <span className="font-semibold"></span> Time: 12:00 PM
+                <span className="font-semibold"></span> Venue: Poolside
               </span>
             </div>
 
@@ -268,7 +274,8 @@ const CardX = () => {
             <div className=" text-[16px] mt-1 flex flex-col Font_YV gap-1 max-sm:text-center justify-center items-center">
               <span className=" flex flex-col uppercase">
                 <span className="font-semibold"></span> 23/09/26
-                <span className="font-semibold mt-1"></span> Evening
+                <span className="font-semibold mt-1"></span> Time: 7:30 PM
+                <span className="font-semibold mt-1"></span> Venue: The Great Park
               </span>
             </div>
 
@@ -361,10 +368,10 @@ const CardX = () => {
                   <span className="font-semibold"></span> 21/09/26
                 </span>
                 <span className=" uppercase">
-                  <span className="font-semibold"></span> Evening
+                  <span className="font-semibold"></span> Time: 8:00 PM
                 </span>
                 <span className=" uppercase">
-                  <span className="font-semibold"></span> Raffles Udaipur
+                  <span className="font-semibold"></span> Venue: Parterre
                 </span>
               </div>
 
@@ -468,10 +475,10 @@ const CardX = () => {
                   <span className="font-semibold"></span> 22/09/26
                 </span>
                 <span>
-                  <span className="font-semibold"></span> Morning
+                  <span className="font-semibold"></span> Time: 11:30 AM
                 </span>
                 <span>
-                  <span className="font-semibold"></span> Raffles Udaipur
+                  <span className="font-semibold"></span> Venue: English Garden
                 </span>
               </div>
 
@@ -524,10 +531,10 @@ const CardX = () => {
                   <span className="font-semibold"></span> 22/09/26
                 </span>
                 <span>
-                  <span className="font-semibold"></span> Evening
+                  <span className="font-semibold"></span> Time: 7:00 PM
                 </span>
                 <span>
-                  <span className="font-semibold"></span> Raffles Udaipur
+                  <span className="font-semibold"></span> Venue: Veranda
                 </span>
               </div>
 
@@ -661,10 +668,10 @@ const CardX = () => {
                   <span className="font-semibold"></span> 23/09/26
                 </span>
                 <span className=" uppercase">
-                  <span className="font-semibold"></span> Morning
+                  <span className="font-semibold"></span> Time: 12:00 PM
                 </span>
                 <span className=" uppercase">
-                  <span className="font-semibold"></span> Raffles Udaipur
+                  <span className="font-semibold"></span> Venue: Poolside
                 </span>
               </div>
 
@@ -716,10 +723,10 @@ const CardX = () => {
                   <span className="font-semibold"></span> 23/09/26
                 </span>
                 <span>
-                  <span className="font-semibold"></span> Evening
+                  <span className="font-semibold"></span> Time: 7:30 PM
                 </span>
                 <span>
-                  <span className="font-semibold"></span> Raffles Udaipur
+                  <span className="font-semibold"></span> Venue: The Great Park
                 </span>
               </div>
 
