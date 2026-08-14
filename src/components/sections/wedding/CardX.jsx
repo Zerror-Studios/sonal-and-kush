@@ -206,7 +206,7 @@ const CardX = () => {
           <div className="w-full h-[1px] bg-[#5513013b] md:hidden mt-15"></div>
         </div>
 
-        {/* div-2b : Varmala, Wedding Ceremony & Dinner + The Afterglow */}
+        
         <div className="w-full h-fit  max-sm:min-h-fit  flex max-sm:flex-col items-center flex-row-reverse  ">
           {/* Varmala, Wedding Ceremony & Dinner */}
           <div className="w-1/2 max-sm:w-full h-fit max-sm:h-fit max-sm:py-[2vh] max-sm:px-[20px] max-lg:px-[4vw] flex relative COLOR_BG_CREAM flex-col COLOR_TEXT_RED justify-center items-center">
@@ -230,7 +230,7 @@ const CardX = () => {
             </p>
           </div>
 
-          {/* The Afterglow */}
+         
           <div className="w-1/2 max-sm:w-full h-fit max-sm:h-fit max-sm:py-[2vh] max-sm:px-[20px] max-lg:px-[4vw] flex relative COLOR_BG_CREAM flex-col COLOR_TEXT_RED justify-center items-center">
             <h5 className="Font_Q text-[40px] leading-[45px] max-sm:text-center flex flex-wrap justify-center items-center  my-6 uppercase px-[10%] text-center ">
               The Afterglow
@@ -240,7 +240,7 @@ const CardX = () => {
               <span className=" uppercase flex flex-col">
                 <span className="font-semibold"></span> 22/09/26
                 <span className="font-semibold mt-1"></span> Time: 11:30 PM
-                <span className="font-semibold mt-1"></span> Venue: Restaurant
+                <span className="font-semibold mt-1"></span> Venue: Restaurant Outdoor Pavilion
               </span>
             </div>
 
@@ -448,7 +448,7 @@ const CardX = () => {
           </div>
         </div>
 
-        {/* Div - 2 : Haldi, Hi-Tea & Safa Bandi, Varmala/Wedding/Dinner, Afterglow */}
+        
         <div className="w-full md:min-h-screen  relative flex max-sm:flex-col ">
           {/* Left */}
           <div className="w-1/2 max-sm:w-full max-sm:h-fit max-sm:py-[0vh]  max-md:m-10 h-screen md:sticky top-0 left-0 flex justify-center items-center md:bg-[#551301]">
@@ -541,7 +541,7 @@ const CardX = () => {
               </p>
             </div>
 
-            {/* The Afterglow */}
+            
             <div className="w-full max-sm:w-full h-fit py-[10vh] pb-[30vh] max-sm:h-fit max-sm:py-[5vh] max-sm:px-[20px] z-50  flex relative flex-col COLOR_TEXT_RED justify-center items-center">
               <h5 className="Font_Q text-[40px] max-sm:leading-[45px] uppercase mt-6 max-sm:px-[1vw] max-sm:text-center ">
                 The Afterglow
@@ -554,7 +554,7 @@ const CardX = () => {
                   <span className="font-semibold"></span> Time: 11:30 PM
                 </span>
                 <span>
-                  <span className="font-semibold"></span> Venue: Restaurant
+                  <span className="font-semibold"></span> Venue: Restaurant Outdoor Pavilion
                 </span>
               </div>
 
